@@ -29,6 +29,11 @@ vægtafgift				weight tax
 
 "unit": "Vehicle curb weight in kg",
 
+Køretøjstype
+<select id="vehicleType" name="vehicleType" required="required" class="form-control custom-select"><option value="" disabled="disabled">Vælg køretøj</option><option value="[object Object]"> Personbil </option><option value="[object Object]"> Trailer (Påhængskøretøj) </option><option value="[object Object]"> Campingvogn </option><option value="[object Object]"> Motorcykel </option><option value="[object Object]"> Bus (ikke rutebiler) </option><option value="[object Object]"> Varebil </option><option value="[object Object]"> Autocamper </option></select>
+Brændstof
+<select id="fuelType" name="fuelType" required="required" class="form-control custom-select"><option value="" disabled="disabled">Vælg brændstof</option><option value="[object Object]"> Benzin </option><option value="[object Object]"> Diesel </option><option value="[object Object]"> El </option><option value="[object Object]"> Hybrid med benzin (uden stik) </option><option value="[object Object]"> Hybrid med diesel (uden stik) </option><option value="[object Object]"> Plugin-hybrid med benzin </option><option value="[object Object]"> Plugin-hybrid med diesel </option></select>
+
 
 
 */
