@@ -74,6 +74,9 @@ var fuelTypes2 = {
 // 1, 7 : 4433959
 // 2 : 152239
 // 3 : 152252
+// 4, 1 : 
+// 4, 2 : 
+// 4, 2 : 
 
 var vehicleType = null
 var fuelType = null
