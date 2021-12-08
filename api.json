@@ -1,0 +1,3850 @@
+[{
+	"data": {
+		"type": "dap",
+		"id": "4431309",
+		"oid": "2327758",
+		"description": "Benzin",
+		"partikelfilter_mulighed": "0",
+		"version": "version 363 - supchat lang fix",
+		"system": "SKAT internet server 7"
+	},
+	"oid": "2327759",
+	"id": "4431310",
+	"description": "Før 1997 i DK",
+	"valgfri": "0",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "0",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "01-01-1885 00:00",
+	"slut_registrering": "31-12-1996 23:59",
+	"children": [{
+		"oid": "2327760",
+		"id": "4431311",
+		"lvl": "1",
+		"description": "2021",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.000000000000000",
+		"children": [
+			{
+			"oid": "2327761",
+			"id": "4431312",
+			"lvl": "2",
+			"description": "1 - 600",
+			"start_interval": "1.000000000000000",
+			"slut_interval": "600.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 1060
+		}, {
+			"oid": "2327762",
+			"id": "4431313",
+			"lvl": "2",
+			"description": "601 - 800",
+			"start_interval": "601.000000000000000",
+			"slut_interval": "800.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 1290
+		}, {
+			"oid": "2327763",
+			"id": "4431314",
+			"lvl": "2",
+			"description": "801 - 1100",
+			"start_interval": "801.000000000000000",
+			"slut_interval": "1100.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 1760
+		}, {
+			"oid": "2327764",
+			"id": "4431315",
+			"lvl": "2",
+			"description": "1101 - 1300",
+			"start_interval": "1101.000000000000000",
+			"slut_interval": "1300.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 2340
+		}, {
+			"oid": "2327765",
+			"id": "4431316",
+			"lvl": "2",
+			"description": "1301 - 1500",
+			"start_interval": "1301.000000000000000",
+			"slut_interval": "1500.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 3050
+		}, {
+			"oid": "2327766",
+			"id": "4431317",
+			"lvl": "2",
+			"description": "1501 - 2000",
+			"start_interval": "1501.000000000000000",
+			"slut_interval": "2000.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 4200
+		}, {
+			"oid": "2327767",
+			"id": "4431318",
+			"lvl": "2",
+			"description": "2001 -",
+			"start_interval": "2001.000000000000000",
+			"opkrævningsperiode": "kvartal",
+			"vægtafgift_stor": "120/100"
+		}]
+	}, {
+		"oid": "2327768",
+		"id": "4431319",
+		"lvl": "1",
+		"description": "2022",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.030000000000000"
+	}, {
+		"oid": "2327769",
+		"id": "4431320",
+		"lvl": "1",
+		"description": "2023",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.097000000000000"
+	}, {
+		"oid": "2327770",
+		"id": "4431321",
+		"lvl": "1",
+		"description": "2024",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.168000000000000"
+	}, {
+		"oid": "2327771",
+		"id": "4431322",
+		"lvl": "1",
+		"description": "2025",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.244000000000000"
+	}, {
+		"oid": "2327772",
+		"id": "4431323",
+		"lvl": "1",
+		"description": "2026",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.369000000000000"
+	}]
+}, {
+	"oid": "2327773",
+	"id": "4431324",
+	"description": "1997, 1. januar - 29. januar i DK",
+	"valgfri": "0",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "0",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "01-01-1997 00:00",
+	"slut_registrering": "29-01-1997 23:59",
+	"children": [{
+		"oid": "2327774",
+		"id": "4431325",
+		"lvl": "1",
+		"description": "2021",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.000000000000000",
+		"children": [{
+			"oid": "2327775",
+			"id": "4431326",
+			"lvl": "2",
+			"description": "1 - 600",
+			"start_interval": "1.000000000000000",
+			"slut_interval": "600.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 1060
+		}, {
+			"oid": "2327776",
+			"id": "4431327",
+			"lvl": "2",
+			"description": "601 - 800",
+			"start_interval": "601.000000000000000",
+			"slut_interval": "800.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 1290
+		}, {
+			"oid": "2327777",
+			"id": "4431328",
+			"lvl": "2",
+			"description": "801 - 1100",
+			"start_interval": "801.000000000000000",
+			"slut_interval": "1100.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 1760
+		}, {
+			"oid": "2327778",
+			"id": "4431329",
+			"lvl": "2",
+			"description": "1101 - 1300",
+			"start_interval": "1101.000000000000000",
+			"slut_interval": "1300.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 2340
+		}, {
+			"oid": "2327779",
+			"id": "4431330",
+			"lvl": "2",
+			"description": "1301 - 1500",
+			"start_interval": "1301.000000000000000",
+			"slut_interval": "1500.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 3050
+		}, {
+			"oid": "2327780",
+			"id": "4431331",
+			"lvl": "2",
+			"description": "1501 - 2000",
+			"start_interval": "1501.000000000000000",
+			"slut_interval": "2000.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"vægtafgift": 4200
+		}, {
+			"oid": "2327781",
+			"id": "4431332",
+			"lvl": "2",
+			"description": "2001 -",
+			"start_interval": "2001.000000000000000",
+			"opkrævningsperiode": "kvartal",
+			"vægtafgift_stor": "120/100"
+		}]
+	}, {
+		"oid": "2327782",
+		"id": "4431333",
+		"lvl": "1",
+		"description": "2022",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.030000000000000"
+	}, {
+		"oid": "2327783",
+		"id": "4431334",
+		"lvl": "1",
+		"description": "2023",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.097000000000000"
+	}, {
+		"oid": "2327784",
+		"id": "4431335",
+		"lvl": "1",
+		"description": "2024",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.168000000000000"
+	}, {
+		"oid": "2327785",
+		"id": "4431336",
+		"lvl": "1",
+		"description": "2025",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.244000000000000"
+	}, {
+		"oid": "2327786",
+		"id": "4431337",
+		"lvl": "1",
+		"description": "2026",
+		"enhed": "Køretøjets egenvægt i kg",
+		"procentmultiplikator": "1.369000000000000"
+	}]
+}, {
+	"oid": "2327787",
+	"id": "4431338",
+	"description": "1997, 30. januar - 30. juni i DK",
+	"valgfri": "1",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "0",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "30-01-1997 00:00",
+	"slut_registrering": "30-06-1997 23:59",
+	"children": [{
+		"oid": "2327788",
+		"id": "4431339",
+		"lvl": "1",
+		"description": "Vægtafgift",
+		"valgfri_ny_eller_gammel_sats": "0",
+		"el_beregning": "0",
+		"hybrid_benzin_beregning": "0",
+		"hybrid_diesel_beregning": "0",
+		"varebil_anvendelse": "0",
+		"children": [{
+			"oid": "2327789",
+			"id": "4431340",
+			"lvl": "2",
+			"description": "2021",
+			"enhed": "Køretøjets egenvægt i kg",
+			"procentmultiplikator": "1.000000000000000",
+			"children": [{
+				"oid": "2327790",
+				"id": "4431341",
+				"lvl": "3",
+				"description": "1 - 600",
+				"start_interval": "1.000000000000000",
+				"slut_interval": "600.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"vægtafgift": 1060
+			}, {
+				"oid": "2327791",
+				"id": "4431342",
+				"lvl": "3",
+				"description": "601 - 800",
+				"start_interval": "601.000000000000000",
+				"slut_interval": "800.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"vægtafgift": 1290
+			}, {
+				"oid": "2327792",
+				"id": "4431343",
+				"lvl": "3",
+				"description": "801 - 1100",
+				"start_interval": "801.000000000000000",
+				"slut_interval": "1100.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"vægtafgift": 1760
+			}, {
+				"oid": "2327793",
+				"id": "4431344",
+				"lvl": "3",
+				"description": "1101 - 1300",
+				"start_interval": "1101.000000000000000",
+				"slut_interval": "1300.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"vægtafgift": 2340
+			}, {
+				"oid": "2327794",
+				"id": "4431345",
+				"lvl": "3",
+				"description": "1301 - 1500",
+				"start_interval": "1301.000000000000000",
+				"slut_interval": "1500.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"vægtafgift": 3050
+			}, {
+				"oid": "2327795",
+				"id": "4431346",
+				"lvl": "3",
+				"description": "1501 - 2000",
+				"start_interval": "1501.000000000000000",
+				"slut_interval": "2000.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"vægtafgift": 4200
+			}, {
+				"oid": "2327796",
+				"id": "4431347",
+				"lvl": "3",
+				"description": "2001 -",
+				"start_interval": "2001.000000000000000",
+				"opkrævningsperiode": "kvartal",
+				"vægtafgift_stor": "120/100"
+			}]
+		}, {
+			"oid": "2327797",
+			"id": "4431348",
+			"lvl": "2",
+			"description": "2022",
+			"enhed": "Køretøjets egenvægt i kg",
+			"procentmultiplikator": "1.030000000000000"
+		}, {
+			"oid": "2327798",
+			"id": "4431349",
+			"lvl": "2",
+			"description": "2023",
+			"enhed": "Køretøjets egenvægt i kg",
+			"procentmultiplikator": "1.097000000000000"
+		}, {
+			"oid": "2327799",
+			"id": "4431350",
+			"lvl": "2",
+			"description": "2024",
+			"enhed": "Køretøjets egenvægt i kg",
+			"procentmultiplikator": "1.168000000000000"
+		}, {
+			"oid": "2327800",
+			"id": "4431351",
+			"lvl": "2",
+			"description": "2025",
+			"enhed": "Køretøjets egenvægt i kg",
+			"procentmultiplikator": "1.244000000000000"
+		}, {
+			"oid": "2327801",
+			"id": "4431352",
+			"lvl": "2",
+			"description": "2026",
+			"enhed": "Køretøjets egenvægt i kg",
+			"procentmultiplikator": "1.369000000000000"
+		}]
+	}, {
+		"oid": "2327802",
+		"id": "4431353",
+		"lvl": "1",
+		"description": "Grøn ejerafgift",
+		"valgfri_ny_eller_gammel_sats": "1",
+		"el_beregning": "0",
+		"hybrid_benzin_beregning": "0",
+		"hybrid_diesel_beregning": "0",
+		"varebil_anvendelse": "0",
+		"children": [{
+			"oid": "68113",
+			"id": "152498",
+			"lvl": "2",
+			"description": "Ja",
+			"children": [{
+				"oid": "2335248",
+				"id": "4449967",
+				"lvl": "3",
+				"description": "2021",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.000000000000000",
+				"children": [{
+					"oid": "2335249",
+					"id": "4449968",
+					"lvl": "4",
+					"description": "50 -",
+					"start_interval": "50.000000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 330
+				}, {
+					"oid": "2335250",
+					"id": "4449969",
+					"lvl": "4",
+					"description": "44,4 - 49,9",
+					"start_interval": "44.400000000000000",
+					"slut_interval": "49.900000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 370
+				}, {
+					"oid": "2335251",
+					"id": "4449970",
+					"lvl": "4",
+					"description": "40 - 44,3",
+					"start_interval": "40.000000000000000",
+					"slut_interval": "44.300000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 390
+				}, {
+					"oid": "2335252",
+					"id": "4449971",
+					"lvl": "4",
+					"description": "36,4 - 39,9",
+					"start_interval": "36.400000000000000",
+					"slut_interval": "39.900000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 410
+				}, {
+					"oid": "2335253",
+					"id": "4449972",
+					"lvl": "4",
+					"description": "33,3 - 36,3",
+					"start_interval": "33.300000000000000",
+					"slut_interval": "36.300000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 430
+				}, {
+					"oid": "2335254",
+					"id": "4449973",
+					"lvl": "4",
+					"description": "28,6 - 33,2",
+					"start_interval": "28.600000000000000",
+					"slut_interval": "33.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 460
+				}, {
+					"oid": "2335255",
+					"id": "4449974",
+					"lvl": "4",
+					"description": "25 - 28,5",
+					"start_interval": "25.000000000000000",
+					"slut_interval": "28.500000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 500
+				}, {
+					"oid": "2335256",
+					"id": "4449975",
+					"lvl": "4",
+					"description": "22,2 - 24,9",
+					"start_interval": "22.200000000000000",
+					"slut_interval": "24.900000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 540
+				}, {
+					"oid": "2335257",
+					"id": "4449976",
+					"lvl": "4",
+					"description": "20 - 22,1",
+					"start_interval": "20.000000000000000",
+					"slut_interval": "22.100000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 580
+				}, {
+					"oid": "2335258",
+					"id": "4449977",
+					"lvl": "4",
+					"description": "18,2 - 19,9",
+					"start_interval": "18.200000000000000",
+					"slut_interval": "19.900000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 890
+				}, {
+					"oid": "2335259",
+					"id": "4449978",
+					"lvl": "4",
+					"description": "16,7 - 18,1",
+					"start_interval": "16.700000000000000",
+					"slut_interval": "18.100000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 1190
+				}, {
+					"oid": "2335260",
+					"id": "4449979",
+					"lvl": "4",
+					"description": "15,4 - 16,6",
+					"start_interval": "15.400000000000000",
+					"slut_interval": "16.600000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 1510
+				}, {
+					"oid": "2335261",
+					"id": "4449980",
+					"lvl": "4",
+					"description": "14,3 - 15,3",
+					"start_interval": "14.300000000000000",
+					"slut_interval": "15.300000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 1820
+				}, {
+					"oid": "2335262",
+					"id": "4449981",
+					"lvl": "4",
+					"description": "13,3 - 14,2",
+					"start_interval": "13.300000000000000",
+					"slut_interval": "14.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 2120
+				}, {
+					"oid": "2335263",
+					"id": "4449982",
+					"lvl": "4",
+					"description": "12,5 - 13,2",
+					"start_interval": "12.500000000000000",
+					"slut_interval": "13.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 2430
+				}, {
+					"oid": "2335264",
+					"id": "4449983",
+					"lvl": "4",
+					"description": "11,8 - 12,4",
+					"start_interval": "11.800000000000000",
+					"slut_interval": "12.400000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 2730
+				}, {
+					"oid": "2335265",
+					"id": "4449984",
+					"lvl": "4",
+					"description": "11,1 - 11,7",
+					"start_interval": "11.100000000000000",
+					"slut_interval": "11.700000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 3040
+				}, {
+					"oid": "2335266",
+					"id": "4449985",
+					"lvl": "4",
+					"description": "10,5 - 11",
+					"start_interval": "10.500000000000000",
+					"slut_interval": "11.000000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 3350
+				}, {
+					"oid": "2335267",
+					"id": "4449986",
+					"lvl": "4",
+					"description": "10 - 10,4",
+					"start_interval": "10.000000000000000",
+					"slut_interval": "10.400000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 3660
+				}, {
+					"oid": "2335268",
+					"id": "4449987",
+					"lvl": "4",
+					"description": "9,1 - 9,9",
+					"start_interval": "9.100000000000000",
+					"slut_interval": "9.900000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 4260
+				}, {
+					"oid": "2335269",
+					"id": "4449988",
+					"lvl": "4",
+					"description": "8,3 - 9",
+					"start_interval": "8.300000000000000",
+					"slut_interval": "9.000000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 4900
+				}, {
+					"oid": "2335270",
+					"id": "4449989",
+					"lvl": "4",
+					"description": "7,7 - 8,2",
+					"start_interval": "7.700000000000000",
+					"slut_interval": "8.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 5510
+				}, {
+					"oid": "2335271",
+					"id": "4449990",
+					"lvl": "4",
+					"description": "7,1 - 7,6",
+					"start_interval": "7.100000000000000",
+					"slut_interval": "7.600000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 6120
+				}, {
+					"oid": "2335272",
+					"id": "4449991",
+					"lvl": "4",
+					"description": "6,7 - 7",
+					"start_interval": "6.700000000000000",
+					"slut_interval": "7.000000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 6730
+				}, {
+					"oid": "2335273",
+					"id": "4449992",
+					"lvl": "4",
+					"description": "6,3 - 6,6",
+					"start_interval": "6.300000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 7360
+				}, {
+					"oid": "2335274",
+					"id": "4449993",
+					"lvl": "4",
+					"description": "5,9 - 6,2",
+					"start_interval": "5.900000000000000",
+					"slut_interval": "6.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 7970
+				}, {
+					"oid": "2335275",
+					"id": "4449994",
+					"lvl": "4",
+					"description": "5,6 - 5,8",
+					"start_interval": "5.600000000000000",
+					"slut_interval": "5.800000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 8580
+				}, {
+					"oid": "2335276",
+					"id": "4449995",
+					"lvl": "4",
+					"description": "5,3 - 5,5",
+					"start_interval": "5.300000000000000",
+					"slut_interval": "5.500000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 9220
+				}, {
+					"oid": "2335277",
+					"id": "4449996",
+					"lvl": "4",
+					"description": "5 - 5,2",
+					"start_interval": "5.000000000000000",
+					"slut_interval": "5.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 9830
+				}, {
+					"oid": "2335278",
+					"id": "4449997",
+					"lvl": "4",
+					"description": "4,8 -4,9",
+					"start_interval": "4.800000000000000",
+					"slut_interval": "4.900000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 10440
+				}, {
+					"oid": "2335279",
+					"id": "4449998",
+					"lvl": "4",
+					"description": "4,5 - 4,7",
+					"start_interval": "4.500000000000000",
+					"slut_interval": "4.700000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 11050
+				}, {
+					"oid": "2335280",
+					"id": "4449999",
+					"lvl": "4",
+					"description": "0 - 4,4",
+					"start_interval": "0.000000000000000",
+					"slut_interval": "4.400000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 11680
+				}]
+			}, {
+				"oid": "2335282",
+				"id": "4450000",
+				"lvl": "3",
+				"description": "2022",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.030000000000000"
+			}, {
+				"oid": "2335284",
+				"id": "4450001",
+				"lvl": "3",
+				"description": "2023",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.097000000000000"
+			}, {
+				"oid": "2335286",
+				"id": "4450002",
+				"lvl": "3",
+				"description": "2024",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.168000000000000"
+			}, {
+				"oid": "2335288",
+				"id": "4450003",
+				"lvl": "3",
+				"description": "2025",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.244000000000000"
+			}, {
+				"oid": "2335290",
+				"id": "4450004",
+				"lvl": "3",
+				"description": "2026",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.369000000000000"
+			}]
+		}, {
+			"oid": "68114",
+			"id": "152499",
+			"lvl": "2",
+			"description": "Nej",
+			"children": [{
+				"oid": "2327803",
+				"id": "4431354",
+				"lvl": "3",
+				"description": "2021",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.000000000000000",
+				"children": [{
+					"oid": "2327804",
+					"id": "4431355",
+					"lvl": "4",
+					"description": "20 -",
+					"start_interval": "20.000000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 330
+				}, {
+					"oid": "2327805",
+					"id": "4431356",
+					"lvl": "4",
+					"description": "18,2 - 19,9",
+					"start_interval": "18.200000000000000",
+					"slut_interval": "19.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 640
+				}, {
+					"oid": "2327806",
+					"id": "4431357",
+					"lvl": "4",
+					"description": "16,7 - 18,1",
+					"start_interval": "16.700000000000000",
+					"slut_interval": "18.100000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 940
+				}, {
+					"oid": "2327807",
+					"id": "4431358",
+					"lvl": "4",
+					"description": "15,4 - 16,6",
+					"start_interval": "15.400000000000000",
+					"slut_interval": "16.600000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 1260
+				}, {
+					"oid": "2327808",
+					"id": "4431359",
+					"lvl": "4",
+					"description": "14,3 - 15,3",
+					"start_interval": "14.300000000000000",
+					"slut_interval": "15.300000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 1570
+				}, {
+					"oid": "2327809",
+					"id": "4431360",
+					"lvl": "4",
+					"description": "13,3 - 14,2",
+					"start_interval": "13.300000000000000",
+					"slut_interval": "14.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 1870
+				}, {
+					"oid": "2327810",
+					"id": "4431361",
+					"lvl": "4",
+					"description": "12,5 - 13,2",
+					"start_interval": "12.500000000000000",
+					"slut_interval": "13.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 2180
+				}, {
+					"oid": "2327811",
+					"id": "4431362",
+					"lvl": "4",
+					"description": "11,8 - 12,4",
+					"start_interval": "11.800000000000000",
+					"slut_interval": "12.400000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 2480
+				}, {
+					"oid": "2327812",
+					"id": "4431363",
+					"lvl": "4",
+					"description": "11,1 - 11,7",
+					"start_interval": "11.100000000000000",
+					"slut_interval": "11.700000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 2790
+				}, {
+					"oid": "2327813",
+					"id": "4431364",
+					"lvl": "4",
+					"description": "10,5 - 11",
+					"start_interval": "10.500000000000000",
+					"slut_interval": "11.000000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 3100
+				}, {
+					"oid": "2327814",
+					"id": "4431365",
+					"lvl": "4",
+					"description": "10 - 10,4",
+					"start_interval": "10.000000000000000",
+					"slut_interval": "10.400000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 3410
+				}, {
+					"oid": "2327815",
+					"id": "4431366",
+					"lvl": "4",
+					"description": "9,1 - 9,9",
+					"start_interval": "9.100000000000000",
+					"slut_interval": "9.900000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 4010
+				}, {
+					"oid": "2327816",
+					"id": "4431367",
+					"lvl": "4",
+					"description": "8,3 - 9",
+					"start_interval": "8.300000000000000",
+					"slut_interval": "9.000000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 4650
+				}, {
+					"oid": "2327817",
+					"id": "4431368",
+					"lvl": "4",
+					"description": "7,7 - 8,2",
+					"start_interval": "7.700000000000000",
+					"slut_interval": "8.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 5260
+				}, {
+					"oid": "2327818",
+					"id": "4431369",
+					"lvl": "4",
+					"description": "7,1 - 7,6",
+					"start_interval": "7.100000000000000",
+					"slut_interval": "7.600000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 5870
+				}, {
+					"oid": "2327819",
+					"id": "4431370",
+					"lvl": "4",
+					"description": "6,7 - 7",
+					"start_interval": "6.700000000000000",
+					"slut_interval": "7.000000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 6480
+				}, {
+					"oid": "2327820",
+					"id": "4431371",
+					"lvl": "4",
+					"description": "6,3 - 6,6",
+					"start_interval": "6.300000000000000",
+					"slut_interval": "6.600000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 7110
+				}, {
+					"oid": "2327821",
+					"id": "4431372",
+					"lvl": "4",
+					"description": "5,9 - 6,2",
+					"start_interval": "5.900000000000000",
+					"slut_interval": "6.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 7720
+				}, {
+					"oid": "2327822",
+					"id": "4431373",
+					"lvl": "4",
+					"description": "5,6 - 5,8",
+					"start_interval": "5.600000000000000",
+					"slut_interval": "5.800000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 8330
+				}, {
+					"oid": "2327823",
+					"id": "4431374",
+					"lvl": "4",
+					"description": "5,3 - 5,5",
+					"start_interval": "5.300000000000000",
+					"slut_interval": "5.500000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 8970
+				}, {
+					"oid": "2327824",
+					"id": "4431375",
+					"lvl": "4",
+					"description": "5 - 5,2",
+					"start_interval": "5.000000000000000",
+					"slut_interval": "5.200000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 9580
+				}, {
+					"oid": "2327825",
+					"id": "4431376",
+					"lvl": "4",
+					"description": "4,8 -4,9",
+					"start_interval": "4.800000000000000",
+					"slut_interval": "4.900000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 10190
+				}, {
+					"oid": "2327826",
+					"id": "4431377",
+					"lvl": "4",
+					"description": "4,5 - 4,7",
+					"start_interval": "4.500000000000000",
+					"slut_interval": "4.700000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 10800
+				}, {
+					"oid": "2327827",
+					"id": "4431378",
+					"lvl": "4",
+					"description": "0 - 4,4",
+					"start_interval": "0.000000000000000",
+					"slut_interval": "4.400000000000000",
+					"opkrævningsperiode": "halvår",
+					"grøn_ejerafgift": 11430
+				}]
+			}, {
+				"oid": "2327828",
+				"id": "4431379",
+				"lvl": "3",
+				"description": "2022",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.030000000000000"
+			}, {
+				"oid": "2327829",
+				"id": "4431380",
+				"lvl": "3",
+				"description": "2023",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.097000000000000"
+			}, {
+				"oid": "2327830",
+				"id": "4431381",
+				"lvl": "3",
+				"description": "2024",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.168000000000000"
+			}, {
+				"oid": "2327831",
+				"id": "4431382",
+				"lvl": "3",
+				"description": "2025",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.244000000000000"
+			}, {
+				"oid": "2327832",
+				"id": "4431383",
+				"lvl": "3",
+				"description": "2026",
+				"enhed": "Km pr. liter",
+				"procentmultiplikator": "1.369000000000000"
+			}]
+		}]
+	}]
+}, {
+	"oid": "2327833",
+	"id": "4431384",
+	"description": "1997, 1. juli - 31. december i DK",
+	"valgfri": "0",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "1",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "01-07-1997 00:00",
+	"slut_registrering": "31-12-1997 23:59",
+	"children": [{
+		"oid": "2335330",
+		"id": "4450005",
+		"lvl": "1",
+		"description": "Ja",
+		"children": [{
+			"oid": "2335331",
+			"id": "4450006",
+			"lvl": "2",
+			"description": "2021",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.000000000000000",
+			"children": [{
+				"oid": "2335332",
+				"id": "4450007",
+				"lvl": "3",
+				"description": "50 -",
+				"start_interval": "50.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 330
+			}, {
+				"oid": "2335333",
+				"id": "4450008",
+				"lvl": "3",
+				"description": "44,4 - 49,9",
+				"start_interval": "44.400000000000000",
+				"slut_interval": "49.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 370
+			}, {
+				"oid": "2335334",
+				"id": "4450009",
+				"lvl": "3",
+				"description": "40 - 44,3",
+				"start_interval": "40.000000000000000",
+				"slut_interval": "44.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 390
+			}, {
+				"oid": "2335335",
+				"id": "4450010",
+				"lvl": "3",
+				"description": "36,4 - 39,9",
+				"start_interval": "36.400000000000000",
+				"slut_interval": "39.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 410
+			}, {
+				"oid": "2335336",
+				"id": "4450011",
+				"lvl": "3",
+				"description": "33,3 - 36,3",
+				"start_interval": "33.300000000000000",
+				"slut_interval": "36.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 430
+			}, {
+				"oid": "2335337",
+				"id": "4450012",
+				"lvl": "3",
+				"description": "28,6 - 33,2",
+				"start_interval": "28.600000000000000",
+				"slut_interval": "33.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 460
+			}, {
+				"oid": "2335338",
+				"id": "4450013",
+				"lvl": "3",
+				"description": "25 - 28,5",
+				"start_interval": "25.000000000000000",
+				"slut_interval": "28.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 500
+			}, {
+				"oid": "2335339",
+				"id": "4450014",
+				"lvl": "3",
+				"description": "22,2 - 24,9",
+				"start_interval": "22.200000000000000",
+				"slut_interval": "24.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 540
+			}, {
+				"oid": "2335340",
+				"id": "4450015",
+				"lvl": "3",
+				"description": "20 - 22,1",
+				"start_interval": "20.000000000000000",
+				"slut_interval": "22.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 580
+			}, {
+				"oid": "2335341",
+				"id": "4450016",
+				"lvl": "3",
+				"description": "18,2 - 19,9",
+				"start_interval": "18.200000000000000",
+				"slut_interval": "19.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 890
+			}, {
+				"oid": "2335342",
+				"id": "4450017",
+				"lvl": "3",
+				"description": "16,7 - 18,1",
+				"start_interval": "16.700000000000000",
+				"slut_interval": "18.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1190
+			}, {
+				"oid": "2335343",
+				"id": "4450018",
+				"lvl": "3",
+				"description": "15,4 - 16,6",
+				"start_interval": "15.400000000000000",
+				"slut_interval": "16.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1510
+			}, {
+				"oid": "2335344",
+				"id": "4450019",
+				"lvl": "3",
+				"description": "14,3 - 15,3",
+				"start_interval": "14.300000000000000",
+				"slut_interval": "15.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1820
+			}, {
+				"oid": "2335345",
+				"id": "4450020",
+				"lvl": "3",
+				"description": "13,3 - 14,2",
+				"start_interval": "13.300000000000000",
+				"slut_interval": "14.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2120
+			}, {
+				"oid": "2335346",
+				"id": "4450021",
+				"lvl": "3",
+				"description": "12,5 - 13,2",
+				"start_interval": "12.500000000000000",
+				"slut_interval": "13.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2430
+			}, {
+				"oid": "2335347",
+				"id": "4450022",
+				"lvl": "3",
+				"description": "11,8 - 12,4",
+				"start_interval": "11.800000000000000",
+				"slut_interval": "12.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2730
+			}, {
+				"oid": "2335348",
+				"id": "4450023",
+				"lvl": "3",
+				"description": "11,1 - 11,7",
+				"start_interval": "11.100000000000000",
+				"slut_interval": "11.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3040
+			}, {
+				"oid": "2335349",
+				"id": "4450024",
+				"lvl": "3",
+				"description": "10,5 - 11",
+				"start_interval": "10.500000000000000",
+				"slut_interval": "11.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3350
+			}, {
+				"oid": "2335350",
+				"id": "4450025",
+				"lvl": "3",
+				"description": "10 - 10,4",
+				"start_interval": "10.000000000000000",
+				"slut_interval": "10.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3660
+			}, {
+				"oid": "2335351",
+				"id": "4450026",
+				"lvl": "3",
+				"description": "9,1 - 9,9",
+				"start_interval": "9.100000000000000",
+				"slut_interval": "9.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4260
+			}, {
+				"oid": "2335352",
+				"id": "4450027",
+				"lvl": "3",
+				"description": "8,3 - 9",
+				"start_interval": "8.300000000000000",
+				"slut_interval": "9.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4900
+			}, {
+				"oid": "2335353",
+				"id": "4450028",
+				"lvl": "3",
+				"description": "7,7 - 8,2",
+				"start_interval": "7.700000000000000",
+				"slut_interval": "8.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5510
+			}, {
+				"oid": "2335354",
+				"id": "4450029",
+				"lvl": "3",
+				"description": "7,1 - 7,6",
+				"start_interval": "7.100000000000000",
+				"slut_interval": "7.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6120
+			}, {
+				"oid": "2335355",
+				"id": "4450030",
+				"lvl": "3",
+				"description": "6,7 - 7",
+				"start_interval": "6.700000000000000",
+				"slut_interval": "7.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6730
+			}, {
+				"oid": "2335356",
+				"id": "4450031",
+				"lvl": "3",
+				"description": "6,3 - 6,6",
+				"start_interval": "6.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7360
+			}, {
+				"oid": "2335357",
+				"id": "4450032",
+				"lvl": "3",
+				"description": "5,9 - 6,2",
+				"start_interval": "5.900000000000000",
+				"slut_interval": "6.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7970
+			}, {
+				"oid": "2335358",
+				"id": "4450033",
+				"lvl": "3",
+				"description": "5,6 - 5,8",
+				"start_interval": "5.600000000000000",
+				"slut_interval": "5.800000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8580
+			}, {
+				"oid": "2335359",
+				"id": "4450034",
+				"lvl": "3",
+				"description": "5,3 - 5,5",
+				"start_interval": "5.300000000000000",
+				"slut_interval": "5.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9220
+			}, {
+				"oid": "2335360",
+				"id": "4450035",
+				"lvl": "3",
+				"description": "5 - 5,2",
+				"start_interval": "5.000000000000000",
+				"slut_interval": "5.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9830
+			}, {
+				"oid": "2335361",
+				"id": "4450036",
+				"lvl": "3",
+				"description": "4,8 -4,9",
+				"start_interval": "4.800000000000000",
+				"slut_interval": "4.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10440
+			}, {
+				"oid": "2335362",
+				"id": "4450037",
+				"lvl": "3",
+				"description": "4,5 - 4,7",
+				"start_interval": "4.500000000000000",
+				"slut_interval": "4.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11050
+			}, {
+				"oid": "2335363",
+				"id": "4450038",
+				"lvl": "3",
+				"description": "0 - 4,4",
+				"start_interval": "0.000000000000000",
+				"slut_interval": "4.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11680
+			}]
+		}, {
+			"oid": "2335364",
+			"id": "4450039",
+			"lvl": "2",
+			"description": "2022",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.030000000000000"
+		}, {
+			"oid": "2335365",
+			"id": "4450040",
+			"lvl": "2",
+			"description": "2023",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.097000000000000"
+		}, {
+			"oid": "2335366",
+			"id": "4450041",
+			"lvl": "2",
+			"description": "2024",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.168000000000000"
+		}, {
+			"oid": "2335367",
+			"id": "4450042",
+			"lvl": "2",
+			"description": "2025",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.244000000000000"
+		}, {
+			"oid": "2335368",
+			"id": "4450043",
+			"lvl": "2",
+			"description": "2026",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.369000000000000"
+		}]
+	}, {
+		"oid": "68115",
+		"id": "152500",
+		"lvl": "1",
+		"description": "Nej",
+		"children": [{
+			"oid": "2327834",
+			"id": "4431385",
+			"lvl": "2",
+			"description": "2021",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.000000000000000",
+			"children": [{
+				"oid": "2327835",
+				"id": "4431386",
+				"lvl": "3",
+				"description": "20 -",
+				"start_interval": "20.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 330
+			}, {
+				"oid": "2327836",
+				"id": "4431387",
+				"lvl": "3",
+				"description": "18,2 - 19,9",
+				"start_interval": "18.200000000000000",
+				"slut_interval": "19.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 640
+			}, {
+				"oid": "2327837",
+				"id": "4431388",
+				"lvl": "3",
+				"description": "16,7 - 18,1",
+				"start_interval": "16.700000000000000",
+				"slut_interval": "18.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 940
+			}, {
+				"oid": "2327838",
+				"id": "4431389",
+				"lvl": "3",
+				"description": "15,4 - 16,6",
+				"start_interval": "15.400000000000000",
+				"slut_interval": "16.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1260
+			}, {
+				"oid": "2327839",
+				"id": "4431390",
+				"lvl": "3",
+				"description": "14,3 - 15,3",
+				"start_interval": "14.300000000000000",
+				"slut_interval": "15.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1570
+			}, {
+				"oid": "2327840",
+				"id": "4431391",
+				"lvl": "3",
+				"description": "13,3 - 14,2",
+				"start_interval": "13.300000000000000",
+				"slut_interval": "14.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1870
+			}, {
+				"oid": "2327841",
+				"id": "4431392",
+				"lvl": "3",
+				"description": "12,5 - 13,2",
+				"start_interval": "12.500000000000000",
+				"slut_interval": "13.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2180
+			}, {
+				"oid": "2327842",
+				"id": "4431393",
+				"lvl": "3",
+				"description": "11,8 - 12,4",
+				"start_interval": "11.800000000000000",
+				"slut_interval": "12.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2480
+			}, {
+				"oid": "2327843",
+				"id": "4431394",
+				"lvl": "3",
+				"description": "11,1 - 11,7",
+				"start_interval": "11.100000000000000",
+				"slut_interval": "11.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2790
+			}, {
+				"oid": "2327844",
+				"id": "4431395",
+				"lvl": "3",
+				"description": "10,5 - 11",
+				"start_interval": "10.500000000000000",
+				"slut_interval": "11.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3100
+			}, {
+				"oid": "2327845",
+				"id": "4431396",
+				"lvl": "3",
+				"description": "10 - 10,4",
+				"start_interval": "10.000000000000000",
+				"slut_interval": "10.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3410
+			}, {
+				"oid": "2327846",
+				"id": "4431397",
+				"lvl": "3",
+				"description": "9,1 - 9,9",
+				"start_interval": "9.100000000000000",
+				"slut_interval": "9.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4010
+			}, {
+				"oid": "2327847",
+				"id": "4431398",
+				"lvl": "3",
+				"description": "8,3 - 9",
+				"start_interval": "8.300000000000000",
+				"slut_interval": "9.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4650
+			}, {
+				"oid": "2327848",
+				"id": "4431399",
+				"lvl": "3",
+				"description": "7,7 - 8,2",
+				"start_interval": "7.700000000000000",
+				"slut_interval": "8.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5260
+			}, {
+				"oid": "2327849",
+				"id": "4431400",
+				"lvl": "3",
+				"description": "7,1 - 7,6",
+				"start_interval": "7.100000000000000",
+				"slut_interval": "7.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5870
+			}, {
+				"oid": "2327850",
+				"id": "4431401",
+				"lvl": "3",
+				"description": "6,7 - 7",
+				"start_interval": "6.700000000000000",
+				"slut_interval": "7.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6480
+			}, {
+				"oid": "2327851",
+				"id": "4431402",
+				"lvl": "3",
+				"description": "6,3 - 6,6",
+				"start_interval": "6.300000000000000",
+				"slut_interval": "6.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7110
+			}, {
+				"oid": "2327852",
+				"id": "4431403",
+				"lvl": "3",
+				"description": "5,9 - 6,2",
+				"start_interval": "5.900000000000000",
+				"slut_interval": "6.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7720
+			}, {
+				"oid": "2327853",
+				"id": "4431404",
+				"lvl": "3",
+				"description": "5,6 - 5,8",
+				"start_interval": "5.600000000000000",
+				"slut_interval": "5.800000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8330
+			}, {
+				"oid": "2327854",
+				"id": "4431405",
+				"lvl": "3",
+				"description": "5,3 - 5,5",
+				"start_interval": "5.300000000000000",
+				"slut_interval": "5.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8970
+			}, {
+				"oid": "2327855",
+				"id": "4431406",
+				"lvl": "3",
+				"description": "5 - 5,2",
+				"start_interval": "5.000000000000000",
+				"slut_interval": "5.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9580
+			}, {
+				"oid": "2327856",
+				"id": "4431407",
+				"lvl": "3",
+				"description": "4,8 -4,9",
+				"start_interval": "4.800000000000000",
+				"slut_interval": "4.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10190
+			}, {
+				"oid": "2327857",
+				"id": "4431408",
+				"lvl": "3",
+				"description": "4,5 - 4,7",
+				"start_interval": "4.500000000000000",
+				"slut_interval": "4.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10800
+			}, {
+				"oid": "2327858",
+				"id": "4431409",
+				"lvl": "3",
+				"description": "0 - 4,4",
+				"start_interval": "0.000000000000000",
+				"slut_interval": "4.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11430
+			}]
+		}, {
+			"oid": "2327859",
+			"id": "4431410",
+			"lvl": "2",
+			"description": "2022",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.030000000000000"
+		}, {
+			"oid": "2327860",
+			"id": "4431411",
+			"lvl": "2",
+			"description": "2023",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.097000000000000"
+		}, {
+			"oid": "2327861",
+			"id": "4431412",
+			"lvl": "2",
+			"description": "2024",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.168000000000000"
+		}, {
+			"oid": "2327862",
+			"id": "4431413",
+			"lvl": "2",
+			"description": "2025",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.244000000000000"
+		}, {
+			"oid": "2327863",
+			"id": "4431414",
+			"lvl": "2",
+			"description": "2026",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.369000000000000"
+		}]
+	}]
+}, {
+	"oid": "2327864",
+	"id": "4431415",
+	"description": "1998-2016 i DK",
+	"valgfri": "0",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "1",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "01-01-1998 00:00",
+	"slut_registrering": "31-12-2016 23:59",
+	"children": [{
+		"oid": "2335412",
+		"id": "4450048",
+		"lvl": "1",
+		"description": "Ja",
+		"children": [{
+			"oid": "2335413",
+			"id": "4450049",
+			"lvl": "2",
+			"description": "2021",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.000000000000000",
+			"children": [{
+				"oid": "2335414",
+				"id": "4450050",
+				"lvl": "3",
+				"description": "50 -",
+				"start_interval": "50.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 330
+			}, {
+				"oid": "2335415",
+				"id": "4450051",
+				"lvl": "3",
+				"description": "44,4 - 49,9",
+				"start_interval": "44.400000000000000",
+				"slut_interval": "49.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 370
+			}, {
+				"oid": "2335416",
+				"id": "4450052",
+				"lvl": "3",
+				"description": "40 - 44,3",
+				"start_interval": "40.000000000000000",
+				"slut_interval": "44.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 390
+			}, {
+				"oid": "2335417",
+				"id": "4450053",
+				"lvl": "3",
+				"description": "36,4 - 39,9",
+				"start_interval": "36.400000000000000",
+				"slut_interval": "39.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 410
+			}, {
+				"oid": "2335418",
+				"id": "4450054",
+				"lvl": "3",
+				"description": "33,3 - 36,3",
+				"start_interval": "33.300000000000000",
+				"slut_interval": "36.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 430
+			}, {
+				"oid": "2335419",
+				"id": "4450055",
+				"lvl": "3",
+				"description": "28,6 - 33,2",
+				"start_interval": "28.600000000000000",
+				"slut_interval": "33.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 460
+			}, {
+				"oid": "2335420",
+				"id": "4450056",
+				"lvl": "3",
+				"description": "25 - 28,5",
+				"start_interval": "25.000000000000000",
+				"slut_interval": "28.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 500
+			}, {
+				"oid": "2335421",
+				"id": "4450057",
+				"lvl": "3",
+				"description": "22,2 - 24,9",
+				"start_interval": "22.200000000000000",
+				"slut_interval": "24.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 540
+			}, {
+				"oid": "2335422",
+				"id": "4450058",
+				"lvl": "3",
+				"description": "20 - 22,1",
+				"start_interval": "20.000000000000000",
+				"slut_interval": "22.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 580
+			}, {
+				"oid": "2335423",
+				"id": "4450059",
+				"lvl": "3",
+				"description": "18,2 - 19,9",
+				"start_interval": "18.200000000000000",
+				"slut_interval": "19.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 890
+			}, {
+				"oid": "2335424",
+				"id": "4450060",
+				"lvl": "3",
+				"description": "16,7 - 18,1",
+				"start_interval": "16.700000000000000",
+				"slut_interval": "18.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1190
+			}, {
+				"oid": "2335425",
+				"id": "4450061",
+				"lvl": "3",
+				"description": "15,4 - 16,6",
+				"start_interval": "15.400000000000000",
+				"slut_interval": "16.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1510
+			}, {
+				"oid": "2335426",
+				"id": "4450062",
+				"lvl": "3",
+				"description": "14,3 - 15,3",
+				"start_interval": "14.300000000000000",
+				"slut_interval": "15.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1820
+			}, {
+				"oid": "2335427",
+				"id": "4450063",
+				"lvl": "3",
+				"description": "13,3 - 14,2",
+				"start_interval": "13.300000000000000",
+				"slut_interval": "14.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2120
+			}, {
+				"oid": "2335428",
+				"id": "4450064",
+				"lvl": "3",
+				"description": "12,5 - 13,2",
+				"start_interval": "12.500000000000000",
+				"slut_interval": "13.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2430
+			}, {
+				"oid": "2335429",
+				"id": "4450065",
+				"lvl": "3",
+				"description": "11,8 - 12,4",
+				"start_interval": "11.800000000000000",
+				"slut_interval": "12.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2730
+			}, {
+				"oid": "2335430",
+				"id": "4450066",
+				"lvl": "3",
+				"description": "11,1 - 11,7",
+				"start_interval": "11.100000000000000",
+				"slut_interval": "11.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3040
+			}, {
+				"oid": "2335431",
+				"id": "4450067",
+				"lvl": "3",
+				"description": "10,5 - 11",
+				"start_interval": "10.500000000000000",
+				"slut_interval": "11.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3350
+			}, {
+				"oid": "2335432",
+				"id": "4450068",
+				"lvl": "3",
+				"description": "10 - 10,4",
+				"start_interval": "10.000000000000000",
+				"slut_interval": "10.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3660
+			}, {
+				"oid": "2335433",
+				"id": "4450069",
+				"lvl": "3",
+				"description": "9,1 - 9,9",
+				"start_interval": "9.100000000000000",
+				"slut_interval": "9.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4260
+			}, {
+				"oid": "2335434",
+				"id": "4450070",
+				"lvl": "3",
+				"description": "8,3 - 9",
+				"start_interval": "8.300000000000000",
+				"slut_interval": "9.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4900
+			}, {
+				"oid": "2335435",
+				"id": "4450071",
+				"lvl": "3",
+				"description": "7,7 - 8,2",
+				"start_interval": "7.700000000000000",
+				"slut_interval": "8.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5510
+			}, {
+				"oid": "2335436",
+				"id": "4450072",
+				"lvl": "3",
+				"description": "7,1 - 7,6",
+				"start_interval": "7.100000000000000",
+				"slut_interval": "7.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6120
+			}, {
+				"oid": "2335437",
+				"id": "4450073",
+				"lvl": "3",
+				"description": "6,7 - 7",
+				"start_interval": "6.700000000000000",
+				"slut_interval": "7.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6730
+			}, {
+				"oid": "2335438",
+				"id": "4450074",
+				"lvl": "3",
+				"description": "6,3 - 6,6",
+				"start_interval": "6.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7360
+			}, {
+				"oid": "2335439",
+				"id": "4450075",
+				"lvl": "3",
+				"description": "5,9 - 6,2",
+				"start_interval": "5.900000000000000",
+				"slut_interval": "6.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7970
+			}, {
+				"oid": "2335440",
+				"id": "4450076",
+				"lvl": "3",
+				"description": "5,6 - 5,8",
+				"start_interval": "5.600000000000000",
+				"slut_interval": "5.800000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8580
+			}, {
+				"oid": "2335441",
+				"id": "4450077",
+				"lvl": "3",
+				"description": "5,3 - 5,5",
+				"start_interval": "5.300000000000000",
+				"slut_interval": "5.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9220
+			}, {
+				"oid": "2335442",
+				"id": "4450078",
+				"lvl": "3",
+				"description": "5 - 5,2",
+				"start_interval": "5.000000000000000",
+				"slut_interval": "5.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9830
+			}, {
+				"oid": "2335443",
+				"id": "4450079",
+				"lvl": "3",
+				"description": "4,8 -4,9",
+				"start_interval": "4.800000000000000",
+				"slut_interval": "4.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10440
+			}, {
+				"oid": "2335444",
+				"id": "4450080",
+				"lvl": "3",
+				"description": "4,5 - 4,7",
+				"start_interval": "4.500000000000000",
+				"slut_interval": "4.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11050
+			}, {
+				"oid": "2335445",
+				"id": "4450081",
+				"lvl": "3",
+				"description": "0 - 4,4",
+				"start_interval": "0.000000000000000",
+				"slut_interval": "4.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11680
+			}]
+		}, {
+			"oid": "2335446",
+			"id": "4450082",
+			"lvl": "2",
+			"description": "2022",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.030000000000000"
+		}, {
+			"oid": "2335447",
+			"id": "4450083",
+			"lvl": "2",
+			"description": "2023",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.097000000000000"
+		}, {
+			"oid": "2335448",
+			"id": "4450084",
+			"lvl": "2",
+			"description": "2024",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.168000000000000"
+		}, {
+			"oid": "2335449",
+			"id": "4450085",
+			"lvl": "2",
+			"description": "2025",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.244000000000000"
+		}, {
+			"oid": "2335450",
+			"id": "4450086",
+			"lvl": "2",
+			"description": "2026",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.369000000000000"
+		}]
+	}, {
+		"oid": "2335371",
+		"id": "4450046",
+		"lvl": "1",
+		"description": "Nej",
+		"children": [{
+			"oid": "2327865",
+			"id": "4431416",
+			"lvl": "2",
+			"description": "2021",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.000000000000000",
+			"children": [{
+				"oid": "2327866",
+				"id": "4431417",
+				"lvl": "3",
+				"description": "20 -",
+				"start_interval": "20.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 330
+			}, {
+				"oid": "2327867",
+				"id": "4431418",
+				"lvl": "3",
+				"description": "18,2 - 19,9",
+				"start_interval": "18.200000000000000",
+				"slut_interval": "19.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 640
+			}, {
+				"oid": "2327868",
+				"id": "4431419",
+				"lvl": "3",
+				"description": "16,7 - 18,1",
+				"start_interval": "16.700000000000000",
+				"slut_interval": "18.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 940
+			}, {
+				"oid": "2327869",
+				"id": "4431420",
+				"lvl": "3",
+				"description": "15,4 - 16,6",
+				"start_interval": "15.400000000000000",
+				"slut_interval": "16.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1260
+			}, {
+				"oid": "2327870",
+				"id": "4431421",
+				"lvl": "3",
+				"description": "14,3 - 15,3",
+				"start_interval": "14.300000000000000",
+				"slut_interval": "15.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1570
+			}, {
+				"oid": "2327871",
+				"id": "4431422",
+				"lvl": "3",
+				"description": "13,3 - 14,2",
+				"start_interval": "13.300000000000000",
+				"slut_interval": "14.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1870
+			}, {
+				"oid": "2327872",
+				"id": "4431423",
+				"lvl": "3",
+				"description": "12,5 - 13,2",
+				"start_interval": "12.500000000000000",
+				"slut_interval": "13.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2180
+			}, {
+				"oid": "2327873",
+				"id": "4431424",
+				"lvl": "3",
+				"description": "11,8 - 12,4",
+				"start_interval": "11.800000000000000",
+				"slut_interval": "12.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2480
+			}, {
+				"oid": "2327874",
+				"id": "4431425",
+				"lvl": "3",
+				"description": "11,1 - 11,7",
+				"start_interval": "11.100000000000000",
+				"slut_interval": "11.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2790
+			}, {
+				"oid": "2327875",
+				"id": "4431426",
+				"lvl": "3",
+				"description": "10,5 - 11",
+				"start_interval": "10.500000000000000",
+				"slut_interval": "11.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3100
+			}, {
+				"oid": "2327876",
+				"id": "4431427",
+				"lvl": "3",
+				"description": "10 - 10,4",
+				"start_interval": "10.000000000000000",
+				"slut_interval": "10.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3410
+			}, {
+				"oid": "2327877",
+				"id": "4431428",
+				"lvl": "3",
+				"description": "9,1 - 9,9",
+				"start_interval": "9.100000000000000",
+				"slut_interval": "9.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4010
+			}, {
+				"oid": "2327878",
+				"id": "4431429",
+				"lvl": "3",
+				"description": "8,3 - 9",
+				"start_interval": "8.300000000000000",
+				"slut_interval": "9.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4650
+			}, {
+				"oid": "2327879",
+				"id": "4431430",
+				"lvl": "3",
+				"description": "7,7 - 8,2",
+				"start_interval": "7.700000000000000",
+				"slut_interval": "8.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5260
+			}, {
+				"oid": "2327880",
+				"id": "4431431",
+				"lvl": "3",
+				"description": "7,1 - 7,6",
+				"start_interval": "7.100000000000000",
+				"slut_interval": "7.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5870
+			}, {
+				"oid": "2327881",
+				"id": "4431432",
+				"lvl": "3",
+				"description": "6,7 - 7",
+				"start_interval": "6.700000000000000",
+				"slut_interval": "7.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6480
+			}, {
+				"oid": "2327882",
+				"id": "4431433",
+				"lvl": "3",
+				"description": "6,3 - 6,6",
+				"start_interval": "6.300000000000000",
+				"slut_interval": "6.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7110
+			}, {
+				"oid": "2327883",
+				"id": "4431434",
+				"lvl": "3",
+				"description": "5,9 - 6,2",
+				"start_interval": "5.900000000000000",
+				"slut_interval": "6.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7720
+			}, {
+				"oid": "2327884",
+				"id": "4431435",
+				"lvl": "3",
+				"description": "5,6 - 5,8",
+				"start_interval": "5.600000000000000",
+				"slut_interval": "5.800000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8330
+			}, {
+				"oid": "2327885",
+				"id": "4431436",
+				"lvl": "3",
+				"description": "5,3 - 5,5",
+				"start_interval": "5.300000000000000",
+				"slut_interval": "5.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8970
+			}, {
+				"oid": "2327886",
+				"id": "4431437",
+				"lvl": "3",
+				"description": "5 - 5,2",
+				"start_interval": "5.000000000000000",
+				"slut_interval": "5.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9580
+			}, {
+				"oid": "2327887",
+				"id": "4431438",
+				"lvl": "3",
+				"description": "4,8 -4,9",
+				"start_interval": "4.800000000000000",
+				"slut_interval": "4.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10190
+			}, {
+				"oid": "2327888",
+				"id": "4431439",
+				"lvl": "3",
+				"description": "4,5 - 4,7",
+				"start_interval": "4.500000000000000",
+				"slut_interval": "4.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10800
+			}, {
+				"oid": "2327889",
+				"id": "4431440",
+				"lvl": "3",
+				"description": "0 - 4,4",
+				"start_interval": "0.000000000000000",
+				"slut_interval": "4.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11430
+			}]
+		}, {
+			"oid": "2327890",
+			"id": "4431441",
+			"lvl": "2",
+			"description": "2022",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.030000000000000"
+		}, {
+			"oid": "2327891",
+			"id": "4431442",
+			"lvl": "2",
+			"description": "2023",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.097000000000000"
+		}, {
+			"oid": "2327892",
+			"id": "4431443",
+			"lvl": "2",
+			"description": "2024",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.168000000000000"
+		}, {
+			"oid": "2327893",
+			"id": "4431444",
+			"lvl": "2",
+			"description": "2025",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.244000000000000"
+		}, {
+			"oid": "2327894",
+			"id": "4431445",
+			"lvl": "2",
+			"description": "2026",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.369000000000000"
+		}]
+	}]
+}, {
+	"oid": "2327895",
+	"id": "4431446",
+	"description": "2017, 1. januar - 2. oktober i DK",
+	"valgfri": "0",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "1",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "01-01-2017 00:00",
+	"slut_registrering": "02-10-2017 23:59",
+	"children": [{
+		"oid": "2335490",
+		"id": "4450087",
+		"lvl": "1",
+		"description": "Ja",
+		"children": [{
+			"oid": "2335491",
+			"id": "4450088",
+			"lvl": "2",
+			"description": "2021",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.000000000000000",
+			"children": [{
+				"oid": "2335492",
+				"id": "4450089",
+				"lvl": "3",
+				"description": "50 -",
+				"start_interval": "50.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 330
+			}, {
+				"oid": "2335493",
+				"id": "4450090",
+				"lvl": "3",
+				"description": "44,4 - 49,9",
+				"start_interval": "44.400000000000000",
+				"slut_interval": "49.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 370
+			}, {
+				"oid": "2335494",
+				"id": "4450091",
+				"lvl": "3",
+				"description": "40 - 44,3",
+				"start_interval": "40.000000000000000",
+				"slut_interval": "44.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 390
+			}, {
+				"oid": "2335495",
+				"id": "4450092",
+				"lvl": "3",
+				"description": "36,4 - 39,9",
+				"start_interval": "36.400000000000000",
+				"slut_interval": "39.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 410
+			}, {
+				"oid": "2335496",
+				"id": "4450093",
+				"lvl": "3",
+				"description": "33,3 - 36,3",
+				"start_interval": "33.300000000000000",
+				"slut_interval": "36.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 430
+			}, {
+				"oid": "2335497",
+				"id": "4450094",
+				"lvl": "3",
+				"description": "28,6 - 33,2",
+				"start_interval": "28.600000000000000",
+				"slut_interval": "33.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 460
+			}, {
+				"oid": "2335498",
+				"id": "4450095",
+				"lvl": "3",
+				"description": "25 - 28,5",
+				"start_interval": "25.000000000000000",
+				"slut_interval": "28.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 500
+			}, {
+				"oid": "2335499",
+				"id": "4450096",
+				"lvl": "3",
+				"description": "22,2 - 24,9",
+				"start_interval": "22.200000000000000",
+				"slut_interval": "24.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 540
+			}, {
+				"oid": "2335500",
+				"id": "4450097",
+				"lvl": "3",
+				"description": "20 - 22,1",
+				"start_interval": "20.000000000000000",
+				"slut_interval": "22.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 580
+			}, {
+				"oid": "2335501",
+				"id": "4450098",
+				"lvl": "3",
+				"description": "18,2 - 19,9",
+				"start_interval": "18.200000000000000",
+				"slut_interval": "19.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 890
+			}, {
+				"oid": "2335502",
+				"id": "4450099",
+				"lvl": "3",
+				"description": "16,7 - 18,1",
+				"start_interval": "16.700000000000000",
+				"slut_interval": "18.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1190
+			}, {
+				"oid": "2335503",
+				"id": "4450100",
+				"lvl": "3",
+				"description": "15,4 - 16,6",
+				"start_interval": "15.400000000000000",
+				"slut_interval": "16.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1510
+			}, {
+				"oid": "2335504",
+				"id": "4450101",
+				"lvl": "3",
+				"description": "14,3 - 15,3",
+				"start_interval": "14.300000000000000",
+				"slut_interval": "15.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1820
+			}, {
+				"oid": "2335505",
+				"id": "4450102",
+				"lvl": "3",
+				"description": "13,3 - 14,2",
+				"start_interval": "13.300000000000000",
+				"slut_interval": "14.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2120
+			}, {
+				"oid": "2335506",
+				"id": "4450103",
+				"lvl": "3",
+				"description": "12,5 - 13,2",
+				"start_interval": "12.500000000000000",
+				"slut_interval": "13.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2430
+			}, {
+				"oid": "2335507",
+				"id": "4450104",
+				"lvl": "3",
+				"description": "11,8 - 12,4",
+				"start_interval": "11.800000000000000",
+				"slut_interval": "12.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2730
+			}, {
+				"oid": "2335508",
+				"id": "4450105",
+				"lvl": "3",
+				"description": "11,1 - 11,7",
+				"start_interval": "11.100000000000000",
+				"slut_interval": "11.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3040
+			}, {
+				"oid": "2335509",
+				"id": "4450106",
+				"lvl": "3",
+				"description": "10,5 - 11",
+				"start_interval": "10.500000000000000",
+				"slut_interval": "11.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3350
+			}, {
+				"oid": "2335510",
+				"id": "4450107",
+				"lvl": "3",
+				"description": "10 - 10,4",
+				"start_interval": "10.000000000000000",
+				"slut_interval": "10.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3660
+			}, {
+				"oid": "2335511",
+				"id": "4450108",
+				"lvl": "3",
+				"description": "9,1 - 9,9",
+				"start_interval": "9.100000000000000",
+				"slut_interval": "9.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4260
+			}, {
+				"oid": "2335512",
+				"id": "4450109",
+				"lvl": "3",
+				"description": "8,3 - 9",
+				"start_interval": "8.300000000000000",
+				"slut_interval": "9.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4900
+			}, {
+				"oid": "2335513",
+				"id": "4450110",
+				"lvl": "3",
+				"description": "7,7 - 8,2",
+				"start_interval": "7.700000000000000",
+				"slut_interval": "8.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5510
+			}, {
+				"oid": "2335514",
+				"id": "4450111",
+				"lvl": "3",
+				"description": "7,1 - 7,6",
+				"start_interval": "7.100000000000000",
+				"slut_interval": "7.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6120
+			}, {
+				"oid": "2335515",
+				"id": "4450112",
+				"lvl": "3",
+				"description": "6,7 - 7",
+				"start_interval": "6.700000000000000",
+				"slut_interval": "7.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6730
+			}, {
+				"oid": "2335516",
+				"id": "4450113",
+				"lvl": "3",
+				"description": "6,3 - 6,6",
+				"start_interval": "6.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7360
+			}, {
+				"oid": "2335517",
+				"id": "4450114",
+				"lvl": "3",
+				"description": "5,9 - 6,2",
+				"start_interval": "5.900000000000000",
+				"slut_interval": "6.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7970
+			}, {
+				"oid": "2335518",
+				"id": "4450115",
+				"lvl": "3",
+				"description": "5,6 - 5,8",
+				"start_interval": "5.600000000000000",
+				"slut_interval": "5.800000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8580
+			}, {
+				"oid": "2335519",
+				"id": "4450116",
+				"lvl": "3",
+				"description": "5,3 - 5,5",
+				"start_interval": "5.300000000000000",
+				"slut_interval": "5.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9220
+			}, {
+				"oid": "2335520",
+				"id": "4450117",
+				"lvl": "3",
+				"description": "5 - 5,2",
+				"start_interval": "5.000000000000000",
+				"slut_interval": "5.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9830
+			}, {
+				"oid": "2335521",
+				"id": "4450118",
+				"lvl": "3",
+				"description": "4,8 -4,9",
+				"start_interval": "4.800000000000000",
+				"slut_interval": "4.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10440
+			}, {
+				"oid": "2335522",
+				"id": "4450119",
+				"lvl": "3",
+				"description": "4,5 - 4,7",
+				"start_interval": "4.500000000000000",
+				"slut_interval": "4.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11050
+			}, {
+				"oid": "2335523",
+				"id": "4450120",
+				"lvl": "3",
+				"description": "0 - 4,4",
+				"start_interval": "0.000000000000000",
+				"slut_interval": "4.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11680
+			}]
+		}, {
+			"oid": "2335524",
+			"id": "4450121",
+			"lvl": "2",
+			"description": "2022",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.030000000000000"
+		}, {
+			"oid": "2335525",
+			"id": "4450122",
+			"lvl": "2",
+			"description": "2023",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.097000000000000"
+		}, {
+			"oid": "2335526",
+			"id": "4450123",
+			"lvl": "2",
+			"description": "2024",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.168000000000000"
+		}, {
+			"oid": "2335527",
+			"id": "4450124",
+			"lvl": "2",
+			"description": "2025",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.244000000000000"
+		}, {
+			"oid": "2335528",
+			"id": "4450125",
+			"lvl": "2",
+			"description": "2026",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.369000000000000"
+		}]
+	}, {
+		"oid": "2335372",
+		"id": "4450047",
+		"lvl": "1",
+		"description": "Nej",
+		"children": [{
+			"oid": "2327896",
+			"id": "4431447",
+			"lvl": "2",
+			"description": "2021",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.000000000000000",
+			"children": [{
+				"oid": "2327897",
+				"id": "4431448",
+				"lvl": "3",
+				"description": "20 -",
+				"start_interval": "20.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 330
+			}, {
+				"oid": "2327898",
+				"id": "4431449",
+				"lvl": "3",
+				"description": "18,2 - 19,9",
+				"start_interval": "18.200000000000000",
+				"slut_interval": "19.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 640
+			}, {
+				"oid": "2327899",
+				"id": "4431450",
+				"lvl": "3",
+				"description": "16,7 - 18,1",
+				"start_interval": "16.700000000000000",
+				"slut_interval": "18.100000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 940
+			}, {
+				"oid": "2327900",
+				"id": "4431451",
+				"lvl": "3",
+				"description": "15,4 - 16,6",
+				"start_interval": "15.400000000000000",
+				"slut_interval": "16.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1260
+			}, {
+				"oid": "2327901",
+				"id": "4431452",
+				"lvl": "3",
+				"description": "14,3 - 15,3",
+				"start_interval": "14.300000000000000",
+				"slut_interval": "15.300000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1570
+			}, {
+				"oid": "2327902",
+				"id": "4431453",
+				"lvl": "3",
+				"description": "13,3 - 14,2",
+				"start_interval": "13.300000000000000",
+				"slut_interval": "14.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 1870
+			}, {
+				"oid": "2327903",
+				"id": "4431454",
+				"lvl": "3",
+				"description": "12,5 - 13,2",
+				"start_interval": "12.500000000000000",
+				"slut_interval": "13.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2180
+			}, {
+				"oid": "2327904",
+				"id": "4431455",
+				"lvl": "3",
+				"description": "11,8 - 12,4",
+				"start_interval": "11.800000000000000",
+				"slut_interval": "12.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2480
+			}, {
+				"oid": "2327905",
+				"id": "4431456",
+				"lvl": "3",
+				"description": "11,1 - 11,7",
+				"start_interval": "11.100000000000000",
+				"slut_interval": "11.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 2790
+			}, {
+				"oid": "2327906",
+				"id": "4431457",
+				"lvl": "3",
+				"description": "10,5 - 11",
+				"start_interval": "10.500000000000000",
+				"slut_interval": "11.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3100
+			}, {
+				"oid": "2327907",
+				"id": "4431458",
+				"lvl": "3",
+				"description": "10 - 10,4",
+				"start_interval": "10.000000000000000",
+				"slut_interval": "10.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 3410
+			}, {
+				"oid": "2327908",
+				"id": "4431459",
+				"lvl": "3",
+				"description": "9,1 - 9,9",
+				"start_interval": "9.100000000000000",
+				"slut_interval": "9.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4010
+			}, {
+				"oid": "2327909",
+				"id": "4431460",
+				"lvl": "3",
+				"description": "8,3 - 9",
+				"start_interval": "8.300000000000000",
+				"slut_interval": "9.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 4650
+			}, {
+				"oid": "2327910",
+				"id": "4431461",
+				"lvl": "3",
+				"description": "7,7 - 8,2",
+				"start_interval": "7.700000000000000",
+				"slut_interval": "8.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5260
+			}, {
+				"oid": "2327911",
+				"id": "4431462",
+				"lvl": "3",
+				"description": "7,1 - 7,6",
+				"start_interval": "7.100000000000000",
+				"slut_interval": "7.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 5870
+			}, {
+				"oid": "2327912",
+				"id": "4431463",
+				"lvl": "3",
+				"description": "6,7 - 7",
+				"start_interval": "6.700000000000000",
+				"slut_interval": "7.000000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 6480
+			}, {
+				"oid": "2327913",
+				"id": "4431464",
+				"lvl": "3",
+				"description": "6,3 - 6,6",
+				"start_interval": "6.300000000000000",
+				"slut_interval": "6.600000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7110
+			}, {
+				"oid": "2327914",
+				"id": "4431465",
+				"lvl": "3",
+				"description": "5,9 - 6,2",
+				"start_interval": "5.900000000000000",
+				"slut_interval": "6.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 7720
+			}, {
+				"oid": "2327915",
+				"id": "4431466",
+				"lvl": "3",
+				"description": "5,6 - 5,8",
+				"start_interval": "5.600000000000000",
+				"slut_interval": "5.800000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8330
+			}, {
+				"oid": "2327916",
+				"id": "4431467",
+				"lvl": "3",
+				"description": "5,3 - 5,5",
+				"start_interval": "5.300000000000000",
+				"slut_interval": "5.500000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 8970
+			}, {
+				"oid": "2327917",
+				"id": "4431468",
+				"lvl": "3",
+				"description": "5 - 5,2",
+				"start_interval": "5.000000000000000",
+				"slut_interval": "5.200000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 9580
+			}, {
+				"oid": "2327918",
+				"id": "4431469",
+				"lvl": "3",
+				"description": "4,8 - 4,9",
+				"start_interval": "4.800000000000000",
+				"slut_interval": "4.900000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10190
+			}, {
+				"oid": "2327919",
+				"id": "4431470",
+				"lvl": "3",
+				"description": "4,5 - 4,7",
+				"start_interval": "4.500000000000000",
+				"slut_interval": "4.700000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 10800
+			}, {
+				"oid": "2327920",
+				"id": "4431471",
+				"lvl": "3",
+				"description": "0 - 4,4",
+				"start_interval": "0.000000000000000",
+				"slut_interval": "4.400000000000000",
+				"opkrævningsperiode": "halvår",
+				"grøn_ejerafgift": 11430
+			}]
+		}, {
+			"oid": "2327921",
+			"id": "4431472",
+			"lvl": "2",
+			"description": "2022",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.030000000000000"
+		}, {
+			"oid": "2327922",
+			"id": "4431473",
+			"lvl": "2",
+			"description": "2023",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.097000000000000"
+		}, {
+			"oid": "2327923",
+			"id": "4431474",
+			"lvl": "2",
+			"description": "2024",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.168000000000000"
+		}, {
+			"oid": "2327924",
+			"id": "4431475",
+			"lvl": "2",
+			"description": "2025",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.244000000000000"
+		}, {
+			"oid": "2327925",
+			"id": "4431476",
+			"lvl": "2",
+			"description": "2026",
+			"enhed": "Km pr. liter",
+			"procentmultiplikator": "1.369000000000000"
+		}]
+	}]
+}, {
+	"oid": "2327926",
+	"id": "4431477",
+	"description": "2017, 3. oktober - 31. december i DK",
+	"valgfri": "0",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "0",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "03-10-2017 00:00",
+	"slut_registrering": "31-12-2017 23:59",
+	"children": [{
+		"oid": "2327927",
+		"id": "4431478",
+		"lvl": "1",
+		"description": "2021",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.000000000000000",
+		"children": [{
+			"oid": "2327928",
+			"id": "4431479",
+			"lvl": "2",
+			"description": "50 -",
+			"start_interval": "50.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 330
+		}, {
+			"oid": "2327929",
+			"id": "4431480",
+			"lvl": "2",
+			"description": "44,4 - 49,9",
+			"start_interval": "44.400000000000000",
+			"slut_interval": "49.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 370
+		}, {
+			"oid": "2327930",
+			"id": "4431481",
+			"lvl": "2",
+			"description": "40 - 44,3",
+			"start_interval": "40.000000000000000",
+			"slut_interval": "44.300000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 390
+		}, {
+			"oid": "2327931",
+			"id": "4431482",
+			"lvl": "2",
+			"description": "36,4 - 39,9",
+			"start_interval": "36.400000000000000",
+			"slut_interval": "39.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 410
+		}, {
+			"oid": "2327932",
+			"id": "4431483",
+			"lvl": "2",
+			"description": "33,3 - 36,3",
+			"start_interval": "33.300000000000000",
+			"slut_interval": "36.300000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 430
+		}, {
+			"oid": "2327933",
+			"id": "4431484",
+			"lvl": "2",
+			"description": "28,6 - 33,2",
+			"start_interval": "28.600000000000000",
+			"slut_interval": "33.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 460
+		}, {
+			"oid": "2327934",
+			"id": "4431485",
+			"lvl": "2",
+			"description": "25 - 28,5",
+			"start_interval": "25.000000000000000",
+			"slut_interval": "28.500000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 500
+		}, {
+			"oid": "2327935",
+			"id": "4431486",
+			"lvl": "2",
+			"description": "22,2 - 24,9",
+			"start_interval": "22.200000000000000",
+			"slut_interval": "24.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 540
+		}, {
+			"oid": "2327936",
+			"id": "4431487",
+			"lvl": "2",
+			"description": "20 - 22,1",
+			"start_interval": "20.000000000000000",
+			"slut_interval": "22.100000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 580
+		}, {
+			"oid": "2327937",
+			"id": "4431488",
+			"lvl": "2",
+			"description": "18,2 - 19,9",
+			"start_interval": "18.200000000000000",
+			"slut_interval": "19.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 890
+		}, {
+			"oid": "2327938",
+			"id": "4431489",
+			"lvl": "2",
+			"description": "16,7 - 18,1",
+			"start_interval": "16.700000000000000",
+			"slut_interval": "18.100000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 1190
+		}, {
+			"oid": "2327939",
+			"id": "4431490",
+			"lvl": "2",
+			"description": "15,4 - 16,6",
+			"start_interval": "15.400000000000000",
+			"slut_interval": "16.600000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 1510
+		}, {
+			"oid": "2327940",
+			"id": "4431491",
+			"lvl": "2",
+			"description": "14,3 - 15,3",
+			"start_interval": "14.300000000000000",
+			"slut_interval": "15.300000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 1820
+		}, {
+			"oid": "2327941",
+			"id": "4431492",
+			"lvl": "2",
+			"description": "13,3 - 14,2",
+			"start_interval": "13.300000000000000",
+			"slut_interval": "14.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 2120
+		}, {
+			"oid": "2327942",
+			"id": "4431493",
+			"lvl": "2",
+			"description": "12,5 - 13,2",
+			"start_interval": "12.500000000000000",
+			"slut_interval": "13.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 2430
+		}, {
+			"oid": "2327943",
+			"id": "4431494",
+			"lvl": "2",
+			"description": "11,8 - 12,4",
+			"start_interval": "11.800000000000000",
+			"slut_interval": "12.400000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 2730
+		}, {
+			"oid": "2327944",
+			"id": "4431495",
+			"lvl": "2",
+			"description": "11,1 - 11,7",
+			"start_interval": "11.100000000000000",
+			"slut_interval": "11.700000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 3040
+		}, {
+			"oid": "2327945",
+			"id": "4431496",
+			"lvl": "2",
+			"description": "10,5 - 11",
+			"start_interval": "10.500000000000000",
+			"slut_interval": "11.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 3350
+		}, {
+			"oid": "2327946",
+			"id": "4431497",
+			"lvl": "2",
+			"description": "10 - 10,4",
+			"start_interval": "10.000000000000000",
+			"slut_interval": "10.400000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 3660
+		}, {
+			"oid": "2327947",
+			"id": "4431498",
+			"lvl": "2",
+			"description": "9,1 - 9,9",
+			"start_interval": "9.100000000000000",
+			"slut_interval": "9.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 4260
+		}, {
+			"oid": "2327948",
+			"id": "4431499",
+			"lvl": "2",
+			"description": "8,3 - 9",
+			"start_interval": "8.300000000000000",
+			"slut_interval": "9.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 4900
+		}, {
+			"oid": "2327949",
+			"id": "4431500",
+			"lvl": "2",
+			"description": "7,7 - 8,2",
+			"start_interval": "7.700000000000000",
+			"slut_interval": "8.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 5510
+		}, {
+			"oid": "2327950",
+			"id": "4431501",
+			"lvl": "2",
+			"description": "7,1 - 7,6",
+			"start_interval": "7.100000000000000",
+			"slut_interval": "7.600000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 6120
+		}, {
+			"oid": "2327951",
+			"id": "4431502",
+			"lvl": "2",
+			"description": "6,7 - 7",
+			"start_interval": "6.700000000000000",
+			"slut_interval": "7.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 6730
+		}, {
+			"oid": "2327952",
+			"id": "4431503",
+			"lvl": "2",
+			"description": "6,3 - 6,6",
+			"start_interval": "6.300000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 7360
+		}, {
+			"oid": "2327953",
+			"id": "4431504",
+			"lvl": "2",
+			"description": "5,9 - 6,2",
+			"start_interval": "5.900000000000000",
+			"slut_interval": "6.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 7970
+		}, {
+			"oid": "2327954",
+			"id": "4431505",
+			"lvl": "2",
+			"description": "5,6 - 5,8",
+			"start_interval": "5.600000000000000",
+			"slut_interval": "5.800000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 8580
+		}, {
+			"oid": "2327955",
+			"id": "4431506",
+			"lvl": "2",
+			"description": "5,3 - 5,5",
+			"start_interval": "5.300000000000000",
+			"slut_interval": "5.500000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 9220
+		}, {
+			"oid": "2327956",
+			"id": "4431507",
+			"lvl": "2",
+			"description": "5 - 5,2",
+			"start_interval": "5.000000000000000",
+			"slut_interval": "5.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 9830
+		}, {
+			"oid": "2327957",
+			"id": "4431508",
+			"lvl": "2",
+			"description": "4,8 -4,9",
+			"start_interval": "4.800000000000000",
+			"slut_interval": "4.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 10440
+		}, {
+			"oid": "2327958",
+			"id": "4431509",
+			"lvl": "2",
+			"description": "4,5 - 4,7",
+			"start_interval": "4.500000000000000",
+			"slut_interval": "4.700000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 11050
+		}, {
+			"oid": "2327959",
+			"id": "4431510",
+			"lvl": "2",
+			"description": "0 - 4,4",
+			"start_interval": "0.000000000000000",
+			"slut_interval": "4.400000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 11680
+		}]
+	}, {
+		"oid": "2327960",
+		"id": "4431511",
+		"lvl": "1",
+		"description": "2022",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.030000000000000"
+	}, {
+		"oid": "2327961",
+		"id": "4431512",
+		"lvl": "1",
+		"description": "2023",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.097000000000000"
+	}, {
+		"oid": "2327962",
+		"id": "4431513",
+		"lvl": "1",
+		"description": "2024",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.168000000000000"
+	}, {
+		"oid": "2327963",
+		"id": "4431514",
+		"lvl": "1",
+		"description": "2025",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.244000000000000"
+	}, {
+		"oid": "2327964",
+		"id": "4431515",
+		"lvl": "1",
+		"description": "2026",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.369000000000000"
+	}]
+}, {
+	"oid": "2327965",
+	"id": "4431516",
+	"description": "Fra 2018 i DK",
+	"valgfri": "0",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "0",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "01-01-2018 00:00",
+	"slut_registrering": "30-06-2021 23:59",
+	"children": [{
+		"oid": "2327966",
+		"id": "4431517",
+		"lvl": "1",
+		"description": "2021",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.000000000000000",
+		"children": [{
+			"oid": "2327967",
+			"id": "4431518",
+			"lvl": "2",
+			"description": "50 -",
+			"start_interval": "50.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 330
+		}, {
+			"oid": "2327968",
+			"id": "4431519",
+			"lvl": "2",
+			"description": "44,4 - 49,9",
+			"start_interval": "44.400000000000000",
+			"slut_interval": "49.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 370
+		}, {
+			"oid": "2327969",
+			"id": "4431520",
+			"lvl": "2",
+			"description": "40 - 44,3",
+			"start_interval": "40.000000000000000",
+			"slut_interval": "44.300000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 390
+		}, {
+			"oid": "2327970",
+			"id": "4431521",
+			"lvl": "2",
+			"description": "36,4 - 39,9",
+			"start_interval": "36.400000000000000",
+			"slut_interval": "39.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 410
+		}, {
+			"oid": "2327971",
+			"id": "4431522",
+			"lvl": "2",
+			"description": "33,3 - 36,3",
+			"start_interval": "33.300000000000000",
+			"slut_interval": "36.300000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 430
+		}, {
+			"oid": "2327972",
+			"id": "4431523",
+			"lvl": "2",
+			"description": "28,6 - 33,2",
+			"start_interval": "28.600000000000000",
+			"slut_interval": "33.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 460
+		}, {
+			"oid": "2327973",
+			"id": "4431524",
+			"lvl": "2",
+			"description": "25 - 28,5",
+			"start_interval": "25.000000000000000",
+			"slut_interval": "28.500000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 500
+		}, {
+			"oid": "2327974",
+			"id": "4431525",
+			"lvl": "2",
+			"description": "22,2 - 24,9",
+			"start_interval": "22.200000000000000",
+			"slut_interval": "24.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 540
+		}, {
+			"oid": "2327975",
+			"id": "4431526",
+			"lvl": "2",
+			"description": "20 - 22,1",
+			"start_interval": "20.000000000000000",
+			"slut_interval": "22.100000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 580
+		}, {
+			"oid": "2327976",
+			"id": "4431527",
+			"lvl": "2",
+			"description": "18,2 - 19,9",
+			"start_interval": "18.200000000000000",
+			"slut_interval": "19.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 890
+		}, {
+			"oid": "2327977",
+			"id": "4431528",
+			"lvl": "2",
+			"description": "16,7 - 18,1",
+			"start_interval": "16.700000000000000",
+			"slut_interval": "18.100000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 1190
+		}, {
+			"oid": "2327978",
+			"id": "4431529",
+			"lvl": "2",
+			"description": "15,4 - 16,6",
+			"start_interval": "15.400000000000000",
+			"slut_interval": "16.600000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 1510
+		}, {
+			"oid": "2327979",
+			"id": "4431530",
+			"lvl": "2",
+			"description": "14,3 - 15,3",
+			"start_interval": "14.300000000000000",
+			"slut_interval": "15.300000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 1820
+		}, {
+			"oid": "2327980",
+			"id": "4431531",
+			"lvl": "2",
+			"description": "13,3 - 14,2",
+			"start_interval": "13.300000000000000",
+			"slut_interval": "14.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 2120
+		}, {
+			"oid": "2327981",
+			"id": "4431532",
+			"lvl": "2",
+			"description": "12,5 - 13,2",
+			"start_interval": "12.500000000000000",
+			"slut_interval": "13.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 2430
+		}, {
+			"oid": "2327982",
+			"id": "4431533",
+			"lvl": "2",
+			"description": "11,8 - 12,4",
+			"start_interval": "11.800000000000000",
+			"slut_interval": "12.400000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 2730
+		}, {
+			"oid": "2327983",
+			"id": "4431534",
+			"lvl": "2",
+			"description": "11,1 - 11,7",
+			"start_interval": "11.100000000000000",
+			"slut_interval": "11.700000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 3040
+		}, {
+			"oid": "2327984",
+			"id": "4431535",
+			"lvl": "2",
+			"description": "10,5 - 11",
+			"start_interval": "10.500000000000000",
+			"slut_interval": "11.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 3350
+		}, {
+			"oid": "2327985",
+			"id": "4431536",
+			"lvl": "2",
+			"description": "10 - 10,4",
+			"start_interval": "10.000000000000000",
+			"slut_interval": "10.400000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 3660
+		}, {
+			"oid": "2327986",
+			"id": "4431537",
+			"lvl": "2",
+			"description": "9,1 - 9,9",
+			"start_interval": "9.100000000000000",
+			"slut_interval": "9.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 4260
+		}, {
+			"oid": "2327987",
+			"id": "4431538",
+			"lvl": "2",
+			"description": "8,3 - 9",
+			"start_interval": "8.300000000000000",
+			"slut_interval": "9.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 4900
+		}, {
+			"oid": "2327988",
+			"id": "4431539",
+			"lvl": "2",
+			"description": "7,7 - 8,2",
+			"start_interval": "7.700000000000000",
+			"slut_interval": "8.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 5510
+		}, {
+			"oid": "2327989",
+			"id": "4431540",
+			"lvl": "2",
+			"description": "7,1 - 7,6",
+			"start_interval": "7.100000000000000",
+			"slut_interval": "7.600000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 6120
+		}, {
+			"oid": "2327990",
+			"id": "4431541",
+			"lvl": "2",
+			"description": "6,7 - 7",
+			"start_interval": "6.700000000000000",
+			"slut_interval": "7.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 6730
+		}, {
+			"oid": "2327991",
+			"id": "4431542",
+			"lvl": "2",
+			"description": "6,3 - 6,6",
+			"start_interval": "6.300000000000000",
+			"slut_interval": "6.600000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 7360
+		}, {
+			"oid": "2327992",
+			"id": "4431543",
+			"lvl": "2",
+			"description": "5,9 - 6,2",
+			"start_interval": "5.900000000000000",
+			"slut_interval": "6.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 7970
+		}, {
+			"oid": "2327993",
+			"id": "4431544",
+			"lvl": "2",
+			"description": "5,6 - 5,8",
+			"start_interval": "5.600000000000000",
+			"slut_interval": "5.800000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 8580
+		}, {
+			"oid": "2327994",
+			"id": "4431545",
+			"lvl": "2",
+			"description": "5,3 - 5,5",
+			"start_interval": "5.300000000000000",
+			"slut_interval": "5.500000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 9220
+		}, {
+			"oid": "2327995",
+			"id": "4431546",
+			"lvl": "2",
+			"description": "5 - 5,2",
+			"start_interval": "5.000000000000000",
+			"slut_interval": "5.200000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 9830
+		}, {
+			"oid": "2327996",
+			"id": "4431547",
+			"lvl": "2",
+			"description": "4,8 -4,9",
+			"start_interval": "4.800000000000000",
+			"slut_interval": "4.900000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 10440
+		}, {
+			"oid": "2327997",
+			"id": "4431548",
+			"lvl": "2",
+			"description": "4,5 - 4,7",
+			"start_interval": "4.500000000000000",
+			"slut_interval": "4.700000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 11050
+		}, {
+			"oid": "2327998",
+			"id": "4431549",
+			"lvl": "2",
+			"description": "0 - 4,4",
+			"start_interval": "0.000000000000000",
+			"slut_interval": "4.400000000000000",
+			"opkrævningsperiode": "halvår",
+			"grøn_ejerafgift": 11680
+		}]
+	}, {
+		"oid": "2327999",
+		"id": "4431550",
+		"lvl": "1",
+		"description": "2022",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.030000000000000"
+	}, {
+		"oid": "2328000",
+		"id": "4431551",
+		"lvl": "1",
+		"description": "2023",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.097000000000000"
+	}, {
+		"oid": "2328001",
+		"id": "4431552",
+		"lvl": "1",
+		"description": "2024",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.168000000000000"
+	}, {
+		"oid": "2328002",
+		"id": "4431553",
+		"lvl": "1",
+		"description": "2025",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.244000000000000"
+	}, {
+		"oid": "2328003",
+		"id": "4431554",
+		"lvl": "1",
+		"description": "2026",
+		"enhed": "Km pr. liter",
+		"procentmultiplikator": "1.369000000000000"
+	}]
+}, {
+	"oid": "2328004",
+	"id": "4431555",
+	"description": "Fra 1. juli 2021 i DK eller udlandet",
+	"valgfri": "0",
+	"efter_juli_2021_valgfri": "0",
+	"valgfri_ny_eller_gammel_sats": "0",
+	"el_beregning": "0",
+	"hybrid_benzin_beregning": "0",
+	"hybrid_diesel_beregning": "0",
+	"start_registrering": "01-07-2021 00:00",
+	"slut_registrering": "31-12-2100 23:59",
+	"children": [{
+		"oid": "2328045",
+		"id": "4431596",
+		"lvl": "1",
+		"description": "2021",
+		"enhed": "Gram CO2 udledt pr. km",
+		"procentmultiplikator": "1.000000000000000",
+		"children": [{
+			"oid": "2328046",
+			"id": "4431597",
+			"lvl": "2",
+			"description": "0 - 58",
+			"start_interval": "0.000000000000000",
+			"slut_interval": "58.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 330
+		}, {
+			"oid": "2328047",
+			"id": "4431598",
+			"lvl": "2",
+			"description": "59 - 65",
+			"start_interval": "59.000000000000000",
+			"slut_interval": "65.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 370
+		}, {
+			"oid": "2328048",
+			"id": "4431599",
+			"lvl": "2",
+			"description": "66 - 73",
+			"start_interval": "66.000000000000000",
+			"slut_interval": "73.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 390
+		}, {
+			"oid": "2328049",
+			"id": "4431600",
+			"lvl": "2",
+			"description": "74 - 80",
+			"start_interval": "74.000000000000000",
+			"slut_interval": "80.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 410
+		}, {
+			"oid": "2328050",
+			"id": "4431601",
+			"lvl": "2",
+			"description": "81 - 87",
+			"start_interval": "81.000000000000000",
+			"slut_interval": "87.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 430
+		}, {
+			"oid": "2328051",
+			"id": "4431602",
+			"lvl": "2",
+			"description": "88 - 102",
+			"start_interval": "88.000000000000000",
+			"slut_interval": "102.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 460
+		}, {
+			"oid": "2328052",
+			"id": "4431603",
+			"lvl": "2",
+			"description": "103 - 116",
+			"start_interval": "103.000000000000000",
+			"slut_interval": "116.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 500
+		}, {
+			"oid": "2328053",
+			"id": "4431604",
+			"lvl": "2",
+			"description": "117 - 131",
+			"start_interval": "117.000000000000000",
+			"slut_interval": "131.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 540
+		}, {
+			"oid": "2328054",
+			"id": "4431605",
+			"lvl": "2",
+			"description": "132 - 145",
+			"start_interval": "132.000000000000000",
+			"slut_interval": "145.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 580
+		}, {
+			"oid": "2328055",
+			"id": "4431606",
+			"lvl": "2",
+			"description": "146 - 160",
+			"start_interval": "146.000000000000000",
+			"slut_interval": "160.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 890
+		}, {
+			"oid": "2328056",
+			"id": "4431607",
+			"lvl": "2",
+			"description": "161 - 174",
+			"start_interval": "161.000000000000000",
+			"slut_interval": "174.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 1190
+		}, {
+			"oid": "2328057",
+			"id": "4431608",
+			"lvl": "2",
+			"description": "175 - 189",
+			"start_interval": "175.000000000000000",
+			"slut_interval": "189.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 1510
+		}, {
+			"oid": "2328058",
+			"id": "4431609",
+			"lvl": "2",
+			"description": "190 - 203",
+			"start_interval": "190.000000000000000",
+			"slut_interval": "203.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 1820
+		}, {
+			"oid": "2328059",
+			"id": "4431610",
+			"lvl": "2",
+			"description": "204 - 218",
+			"start_interval": "204.000000000000000",
+			"slut_interval": "218.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 2120
+		}, {
+			"oid": "2328060",
+			"id": "4431611",
+			"lvl": "2",
+			"description": "219 - 232",
+			"start_interval": "219.000000000000000",
+			"slut_interval": "232.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 2430
+		}, {
+			"oid": "2328061",
+			"id": "4431612",
+			"lvl": "2",
+			"description": "233 - 246",
+			"start_interval": "233.000000000000000",
+			"slut_interval": "246.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 2730
+		}, {
+			"oid": "2328062",
+			"id": "4431613",
+			"lvl": "2",
+			"description": "247 - 262",
+			"start_interval": "247.000000000000000",
+			"slut_interval": "262.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 3040
+		}, {
+			"oid": "2328063",
+			"id": "4431614",
+			"lvl": "2",
+			"description": "263 - 277",
+			"start_interval": "263.000000000000000",
+			"slut_interval": "277.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 3350
+		}, {
+			"oid": "2328064",
+			"id": "4431615",
+			"lvl": "2",
+			"description": "278 - 290",
+			"start_interval": "278.000000000000000",
+			"slut_interval": "290.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 3660
+		}, {
+			"oid": "2328065",
+			"id": "4431616",
+			"lvl": "2",
+			"description": "291 - 319",
+			"start_interval": "291.000000000000000",
+			"slut_interval": "319.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 4260
+		}, {
+			"oid": "2328066",
+			"id": "4431617",
+			"lvl": "2",
+			"description": "320 - 350",
+			"start_interval": "320.000000000000000",
+			"slut_interval": "350.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 4900
+		}, {
+			"oid": "2328067",
+			"id": "4431618",
+			"lvl": "2",
+			"description": "351 - 377",
+			"start_interval": "351.000000000000000",
+			"slut_interval": "377.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 5510
+		}, {
+			"oid": "2328068",
+			"id": "4431619",
+			"lvl": "2",
+			"description": "378 - 409",
+			"start_interval": "378.000000000000000",
+			"slut_interval": "409.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 6120
+		}, {
+			"oid": "2328069",
+			"id": "4431620",
+			"lvl": "2",
+			"description": "410 - 433",
+			"start_interval": "410.000000000000000",
+			"slut_interval": "433.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 6730
+		}, {
+			"oid": "2328070",
+			"id": "4431621",
+			"lvl": "2",
+			"description": "434 - 461",
+			"start_interval": "434.000000000000000",
+			"slut_interval": "461.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 7360
+		}, {
+			"oid": "2328071",
+			"id": "4431622",
+			"lvl": "2",
+			"description": "462 - 492",
+			"start_interval": "462.000000000000000",
+			"slut_interval": "492.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 7970
+		}, {
+			"oid": "2328072",
+			"id": "4431623",
+			"lvl": "2",
+			"description": "493 - 519",
+			"start_interval": "493.000000000000000",
+			"slut_interval": "519.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 8580
+		}, {
+			"oid": "2328073",
+			"id": "4431624",
+			"lvl": "2",
+			"description": "520 - 548",
+			"start_interval": "520.000000000000000",
+			"slut_interval": "548.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 9220
+		}, {
+			"oid": "2328074",
+			"id": "4431625",
+			"lvl": "2",
+			"description": "549 - 581",
+			"start_interval": "549.000000000000000",
+			"slut_interval": "581.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 9830
+		}, {
+			"oid": "2328075",
+			"id": "4431626",
+			"lvl": "2",
+			"description": "582 - 605",
+			"start_interval": "582.000000000000000",
+			"slut_interval": "605.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 10440
+		}, {
+			"oid": "2328076",
+			"id": "4431627",
+			"lvl": "2",
+			"description": "606 - 645",
+			"start_interval": "606.000000000000000",
+			"slut_interval": "645.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 11050
+		}, {
+			"oid": "2328077",
+			"id": "4431628",
+			"lvl": "2",
+			"description": "646 -",
+			"start_interval": "646.000000000000000",
+			"opkrævningsperiode": "halvår",
+			"co2_ejerafgift": 11680
+		}]
+	}, {
+		"oid": "2328078",
+		"id": "4431629",
+		"lvl": "1",
+		"description": "2022",
+		"enhed": "Gram CO2 udledt pr. km",
+		"procentmultiplikator": "1.030000000000000"
+	}, {
+		"oid": "2328079",
+		"id": "4431630",
+		"lvl": "1",
+		"description": "2023",
+		"enhed": "Gram CO2 udledt pr. km",
+		"procentmultiplikator": "1.097000000000000"
+	}, {
+		"oid": "2328080",
+		"id": "4431631",
+		"lvl": "1",
+		"description": "2024",
+		"enhed": "Gram CO2 udledt pr. km",
+		"procentmultiplikator": "1.168000000000000"
+	}, {
+		"oid": "2328081",
+		"id": "4431632",
+		"lvl": "1",
+		"description": "2025",
+		"enhed": "Gram CO2 udledt pr. km",
+		"procentmultiplikator": "1.244000000000000"
+	}, {
+		"oid": "2328082",
+		"id": "4431633",
+		"lvl": "1",
+		"description": "2026",
+		"enhed": "Gram CO2 udledt pr. km",
+		"procentmultiplikator": "1.369000000000000"
+	}]
+}]
