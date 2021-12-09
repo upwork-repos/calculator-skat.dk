@@ -10,7 +10,7 @@ var vehicleTypes = {
 	4 : "Motorcykel", // fuelTypes2
 	5 : "Bus (ikke rutebiler)", // fuelTypes2
 	6 : "Varebil", // fuelTypes1
-	7 : "Autocamper",
+	7 : "Autocamper", // fuelTypes1
 }
 
 // Brændstof
@@ -34,11 +34,123 @@ var fuelTypes2 = {
 
 
 
+const exceptions = {
+	vehicleTypeRequired : "vehicleType is required",
+	registrationDateOutOfRange : "registration Date is Out Of Range"
+}
 
 
+function ceil_base_10(res){
+	return Math.ceil(Math.ceil(res) / 10) * 10
+}
+function run_based_on_registration_date(date_rules, vehicleType, fuelType = null, registrationDate, vehicleCo2Field, particleFilter = null) {
+	var base_rule = null
+	var parts =registrationDate.split('-');
+	registrationDate = new Date(parts[2], parts[1] - 1, parts[0]); 
+	for (var i = 0; i < date_rules.length; i++) {
+		var date_rule = date_rules[i]
+		var min = date_rule.start_registrering
+		var max = date_rule.slut_registrering
+		
+		parts = min.split(' ')[0].split('-');
+		min = new Date(parts[2], parts[1] - 1, parts[0]); 
+		parts = max.split(' ')[0].split('-');
+		max = new Date(parts[2], parts[1] - 1, parts[0]); 
+
+		// return parts
+
+		
+		if (registrationDate >=  min && registrationDate <= max  ) {
+			base_rule = date_rule
+		}
+	}
+	if (!base_rule) {
+		throw exceptions.registrationDateOutOfRange
+	}
+
+	var results = []
+
+	
+
+	var vehicleCo2_rules = base_rule.children[0].children
+	var base_vehicleCo2_rule = null;
+
+
+	for (var i = 0; i < vehicleCo2_rules.length; i++) {
+		var vehicleCo2_rule = vehicleCo2_rules[i]
+		var min = Number(vehicleCo2_rule.start_interval)
+		var max = Number(vehicleCo2_rule.slut_interval) || Infinity
+		if (vehicleCo2Field >=  min && vehicleCo2Field <= max  ) {
+			base_vehicleCo2_rule = vehicleCo2_rule
+		}
+	}
+
+	var vægtafgift_stor = base_vehicleCo2_rule.vægtafgift_stor
+
+	var rules = base_rule.children
+
+	for (var i = 0; i < rules.length; i++) {
+		var current_rule = rules[i]
+		var res = base_vehicleCo2_rule["vægtafgift"]
+		var mult = current_rule.procentmultiplikator
+
+		var timeDependent = current_rule.start_registrering || null
+
+		
+
+		if(vægtafgift_stor){
+			// console.log(current_rule)
+			var arbitrary_no = vehicleCo2Field
+			var big_tax = getCalculatedBigTaxForYear(vægtafgift_stor, current_rule)
+			// console.log(t)
+			res = big_tax[0]  / big_tax[1] *arbitrary_no
+
+			// if(current_rule.description != 2021)
+			// 	res = Math.ceil(Math.ceil(res) / 10) * 10
+			// continue;
+		}else{
+			res = getCalculatedTaxRoundedUp(res, current_rule)
+		}
+
+		
+		var total = res;
+		var weightTax = res;
+		var year = current_rule.description
+		var compensationFee = 0
+		if ( Math.abs(registrationDate.getFullYear() - Number(current_rule.description)) >= 35 ) {
+			total = total * 0.25
+			// year = registrationDate.getFullYear()
+			weightTax = (current_rule.description ==  2021) ? res :ceil_base_10(res)
+		}
+		total = (current_rule.description ==  2021) ? total :ceil_base_10(total)
+		if(particleFilter){
+			// console.log(current_rule.children)
+			// compensationFee = vehicleCo2_rules[i].grøn_ejerafgift
+			// TODO : get the grøn_ejerafgift value
+			compensationFee = 970
+			weightTax = total
+			total = weightTax + compensationFee
+		}
+
+		results.push({
+			year,
+			total,
+			weightTax ,
+			vehicleCo2Field,
+			compensationFee
+		})
+		// console.log(current_rule.description)
+	}
+
+
+
+	return results
+
+}
 
 
 function run(vehicleType, fuelType = null, registrationDate, vehicleCo2Field, particleFilter = null ) {
+	if (!vehicleType) { throw exceptions.vehicleTypeRequired }
 	var jsons  = {
 		'1-1' : "4431309",
 		"1-2" : "4431634",
@@ -70,8 +182,17 @@ function run(vehicleType, fuelType = null, registrationDate, vehicleCo2Field, pa
 	// let jsonData = {}
 	var results = []
 	let rules = JSON.parse(fs.readFileSync('rules/'+file_name+'.json', 'utf-8'))
+
+	var registrationDateIsFactor = rules[0].start_registrering
+
+	if (registrationDateIsFactor) {
+		return run_based_on_registration_date(rules, vehicleType, fuelType, registrationDate, vehicleCo2Field, particleFilter)
+	}
+
 	var vehicleCo2_rules = rules[0].children
 	var base_vehicleCo2_rule = null;
+
+
 	for (var i = 0; i < vehicleCo2_rules.length; i++) {
 		var vehicleCo2_rule = vehicleCo2_rules[i]
 		var min = Number(vehicleCo2_rule.start_interval)
@@ -81,15 +202,21 @@ function run(vehicleType, fuelType = null, registrationDate, vehicleCo2Field, pa
 			base_vehicleCo2_rule = vehicleCo2_rule
 		}
 	}
+	if ( (base_vehicleCo2_rule == null) && (!registrationDateIsFactor) ) {
+		return null
+	}
+
 
 	var vægtafgift_stor = base_vehicleCo2_rule.vægtafgift_stor
-	
-
 
 	for (var i = 0; i < rules.length; i++) {
 		var current_rule = rules[i]
 		var res = base_vehicleCo2_rule["vægtafgift"]
 		var mult = current_rule.procentmultiplikator
+
+		var timeDependent = current_rule.start_registrering || null
+
+		
 
 		if(vægtafgift_stor){
 			// console.log(current_rule)
@@ -98,7 +225,7 @@ function run(vehicleType, fuelType = null, registrationDate, vehicleCo2Field, pa
 			// console.log(t)
 			res = big_tax[0] / big_tax[1] * arbitrary_no
 			if(current_rule.description != 2021)
-				res = Math.ceil(Math.ceil(res) / 10) * 10
+				res = ceil_base_10(res)
 			// continue;
 		}else{
 			res = getCalculatedTaxRoundedUp(res, current_rule)
@@ -167,4 +294,7 @@ function yearsDiff(e) {
 }
 
 
-module.exports = run;
+module.exports = {
+	run,
+	exceptions
+};
