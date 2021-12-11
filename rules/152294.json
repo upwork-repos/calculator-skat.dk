@@ -1,0 +1,212 @@
+[{
+    "data": {
+        "type": "dap",
+        "id": "152294",
+        "oid": "54574",
+        "description": "Benzin eller EL",
+        "partikelfilter_mulighed": "0",
+        "version": "version 363 - supchat lang fix",
+        "system": "SKAT internet server 6"
+    },
+    "oid": "54579",
+    "id": "152299",
+    "description": "2 aksler",
+    "children": [{
+        "oid": "54585",
+        "id": "152305",
+        "lvl": "1",
+        "description": "2021",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.000000000000000",
+        "children": [{
+            "oid": "54753",
+            "id": "152341",
+            "lvl": "2",
+            "description": "1 - 1300",
+            "start_interval": "1.000000000000000",
+            "slut_interval": "1300.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 450
+        }, {
+            "oid": "54755",
+            "id": "152342",
+            "lvl": "2",
+            "description": "1301 - 1500",
+            "start_interval": "1301.000000000000000",
+            "slut_interval": "1500.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 585
+        }, {
+            "oid": "54757",
+            "id": "152343",
+            "lvl": "2",
+            "description": "1501 - 2000",
+            "start_interval": "1501.000000000000000",
+            "slut_interval": "2000.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 810
+        }, {
+            "oid": "54761",
+            "id": "152344",
+            "lvl": "2",
+            "description": "2001 - 3000",
+            "start_interval": "2001.000000000000000",
+            "slut_interval": "3000.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 900
+        }, {
+            "oid": "54765",
+            "id": "152345",
+            "lvl": "2",
+            "description": "3001 - 4000",
+            "start_interval": "3001.000000000000000",
+            "slut_interval": "4000.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 1440
+        }, {
+            "oid": "54767",
+            "id": "152346",
+            "lvl": "2",
+            "description": "4001 - 5000",
+            "start_interval": "4001.000000000000000",
+            "slut_interval": "5000.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 1920
+        }, {
+            "oid": "54769",
+            "id": "152347",
+            "lvl": "2",
+            "description": "5001 - 6000",
+            "start_interval": "5001.000000000000000",
+            "slut_interval": "6000.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 2400
+        }, {
+            "oid": "54771",
+            "id": "152348",
+            "lvl": "2",
+            "description": "6001 - 7000",
+            "start_interval": "6001.000000000000000",
+            "slut_interval": "7000.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 3120
+        }, {
+            "oid": "54773",
+            "id": "152349",
+            "lvl": "2",
+            "description": "7001 - 8000",
+            "start_interval": "7001.000000000000000",
+            "slut_interval": "8000.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 3640
+        }, {
+            "oid": "54777",
+            "id": "152350",
+            "lvl": "2",
+            "description": "8001 - 9000",
+            "start_interval": "8001.000000000000000",
+            "slut_interval": "9000.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift": 4160
+        }, {
+            "oid": "54808",
+            "id": "152351",
+            "lvl": "2",
+            "description": "9001 -",
+            "start_interval": "9001.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift_stor": "50/100"
+        }]
+    }, {
+        "oid": "54586",
+        "id": "152306",
+        "lvl": "1",
+        "description": "2022",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.030000000000000"
+    }, {
+        "oid": "54587",
+        "id": "152307",
+        "lvl": "1",
+        "description": "2023",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.097000000000000"
+    }, {
+        "oid": "54588",
+        "id": "152308",
+        "lvl": "1",
+        "description": "2024",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.168000000000000"
+    }, {
+        "oid": "54589",
+        "id": "152309",
+        "lvl": "1",
+        "description": "2025",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.244000000000000"
+    }, {
+        "oid": "54590",
+        "id": "152310",
+        "lvl": "1",
+        "description": "2026",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.369000000000000"
+    }]
+}, {
+    "oid": "54580",
+    "id": "152300",
+    "description": "3 aksler og flere",
+    "children": [{
+        "oid": "54591",
+        "id": "152311",
+        "lvl": "1",
+        "description": "2021",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.000000000000000",
+        "children": [{
+            "oid": "54842",
+            "id": "152352",
+            "lvl": "2",
+            "description": "1 -",
+            "start_interval": "1.000000000000000",
+            "opkrævningsperiode": "år",
+            "vægtafgift_stor": "36/100"
+        }]
+    }, {
+        "oid": "54592",
+        "id": "152312",
+        "lvl": "1",
+        "description": "2022",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.030000000000000"
+    }, {
+        "oid": "54593",
+        "id": "152313",
+        "lvl": "1",
+        "description": "2023",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.097000000000000"
+    }, {
+        "oid": "54594",
+        "id": "152314",
+        "lvl": "1",
+        "description": "2024",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.168000000000000"
+    }, {
+        "oid": "54595",
+        "id": "152315",
+        "lvl": "1",
+        "description": "2025",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.244000000000000"
+    }, {
+        "oid": "54596",
+        "id": "152316",
+        "lvl": "1",
+        "description": "2026",
+        "enhed": "Køretøjets egenvægt i kg",
+        "procentmultiplikator": "1.369000000000000"
+    }]
+}]

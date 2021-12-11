@@ -1,0 +1,56 @@
+[{
+    "data": {
+        "type": "dap",
+        "id": "152268",
+        "oid": "54548",
+        "description": "Diesel",
+        "partikelfilter_mulighed": "1",
+        "version": "version 363 - supchat lang fix",
+        "system": "SKAT internet server 6"
+    },
+    "oid": "54558",
+    "id": "152278",
+    "description": "2021",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.000000000000000",
+    "children": [{
+        "oid": "54564",
+        "id": "152284",
+        "lvl": "1",
+        "description": "1 -",
+        "start_interval": "1.000000000000000",
+        "opkrævningsperiode": "år",
+        "vægtafgift": 730,
+        "udligningsafgift": 660
+    }]
+}, {
+    "oid": "54559",
+    "id": "152279",
+    "description": "2022",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.030000000000000"
+}, {
+    "oid": "54560",
+    "id": "152280",
+    "description": "2023",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.097000000000000"
+}, {
+    "oid": "54561",
+    "id": "152281",
+    "description": "2024",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.168000000000000"
+}, {
+    "oid": "54562",
+    "id": "152282",
+    "description": "2025",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.244000000000000"
+}, {
+    "oid": "54563",
+    "id": "152283",
+    "description": "2026",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.369000000000000"
+}]

@@ -1,0 +1,55 @@
+[{
+    "data": {
+        "type": "dap",
+        "id": "152267",
+        "oid": "54547",
+        "description": "Benzin eller EL",
+        "partikelfilter_mulighed": "0",
+        "version": "version 363 - supchat lang fix",
+        "system": "SKAT internet server 6"
+    },
+    "oid": "54549",
+    "id": "152269",
+    "description": "2021",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.000000000000000",
+    "children": [{
+        "oid": "54555",
+        "id": "152275",
+        "lvl": "1",
+        "description": "1 -",
+        "start_interval": "1.000000000000000",
+        "opkrævningsperiode": "år",
+        "vægtafgift": 730
+    }]
+}, {
+    "oid": "54550",
+    "id": "152270",
+    "description": "2022",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.030000000000000"
+}, {
+    "oid": "54551",
+    "id": "152271",
+    "description": "2023",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.097000000000000"
+}, {
+    "oid": "54552",
+    "id": "152272",
+    "description": "2024",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.168000000000000"
+}, {
+    "oid": "54553",
+    "id": "152273",
+    "description": "2025",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.244000000000000"
+}, {
+    "oid": "54554",
+    "id": "152274",
+    "description": "2026",
+    "enhed": "Køretøjets egenvægt i kg",
+    "procentmultiplikator": "1.369000000000000"
+}]

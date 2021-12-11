@@ -44,4 +44,26 @@ test('3. Campingvogn', () => {
 });
 
 
+test('4. Motorcykel', () => {
+  expect(run(4,1, "08-12-2021").map(t=>t.total)).toStrictEqual([ 730, 760, 810, 860, 910, 1000 ]);
+  expect(run(4,2, "08-12-2021").map(t=>[t.compensationFee, t.weightTax, t.total])).toStrictEqual([ [660, 730, 1390], [660, 760, 1420], [660, 810, 1470], [660,860,1520], [660, 910, 1570], [660, 1000, 1660] ]);
+});
 
+
+test('5. Bus (ikke rutebiler)', () => {
+  expect(run(5,2, "08-12-2021", 100, true, 2).map(t=>[t.compensationFee, t.weightTax, t.total])).toStrictEqual([ [1130, 450, 1580], [1130, 470, 1600], [1130, 500, 1630], [1130,530,1660], [1130, 560, 1690], [1130, 620, 1750] ]);
+  expect(run(5,2, "08-12-2021", 1900, true, 2).map(t=>[t.compensationFee, t.weightTax, t.total])).toStrictEqual([ [1230, 810, 2040], [1230, 840, 2070], [1230, 890, 2120], [1230,950,2180], [1230, 1010, 2240], [1230, 1110, 2340] ]);
+  expect(run(5,2, "08-12-2021", 7500, true, 2).map(t=>[t.compensationFee, t.weightTax, t.total])).toStrictEqual([ [1230, 3640, 4870], [1230, 3750, 4980], [1230, 4000, 5230], [1230,4260,5490], [1230, 4530, 5760], [1230, 4990, 6220] ]);
+
+  expect(run(5,2, "08-12-2021", 9100, true, 2).map(t=>[t.compensationFee, t.weightTax, t.total])).toStrictEqual([ [4550, 1274, 5824], [4690, 1274, 5964], [5000, 1274, 6274], [5320,1274,6594], [5670, 1274, 6944], [6230, 1274, 7504] ]);
+  
+  expect(run(5,2, "08-12-2021", 19100, true, 2).map(t=>[t.compensationFee, t.weightTax, t.total])).toStrictEqual([ [9550, 2674, 12224], [9840, 2674, 12514], [10480, 2674, 13154], [11160,2674,13834], [11890, 2674, 14564], [13080, 2674, 15754] ]);
+
+
+  expect(run(5,1, "08-12-2021", 100, true, 2).map(t=>t.total)).toStrictEqual([ 450, 470, 500, 530, 560, 620 ]);
+  expect(run(5,1, "08-12-2021", 19100, true, 2).map(t=>t.total)).toStrictEqual([ 9550, 9840, 10480, 11160, 11890, 13080 ]);
+ 
+});
+
+  // expect(run(4,1, "08-12-2021", 1550).map(t=>t.total)).toStrictEqual([ 1344, 1390, 1480, 1570, 1680, 1840 ]);
+  // expect(run(4,1, "08-12-2021", 2002).map(t=>t.total)).toStrictEqual([ 806.4, 840, 890, 950, 1010, 1110 ]);
