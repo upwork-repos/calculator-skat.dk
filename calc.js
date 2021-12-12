@@ -90,11 +90,15 @@ function run_based_on_registration_date(date_rules, vehicleType, fuelType = null
 
     var vægtafgift_stor = base_vehicleCo2_rule.vægtafgift_stor
 
+
     var rules = base_rule.children
+
 
     for (var i = 0; i < rules.length; i++) {
         var current_rule = rules[i]
-        var res = base_vehicleCo2_rule["vægtafgift"]
+        var res = base_vehicleCo2_rule["vægtafgift"] || 0
+        var res2 = base_vehicleCo2_rule["co2_ejerafgift"] || 0
+        res = res + res2
         var mult = current_rule.procentmultiplikator
 
         var timeDependent = current_rule.start_registrering || null
@@ -114,7 +118,6 @@ function run_based_on_registration_date(date_rules, vehicleType, fuelType = null
         } else {
             res = getCalculatedTaxRoundedUp(res, current_rule)
         }
-
 
         var total = res;
         var weightTax = res;
@@ -334,6 +337,107 @@ function axles_run(rules, vehicleType, fuelType, registrationDate, axles, vehicl
     return algorithm1(axlesRule, vehicleCo2Field, baseCompensationFee)
 }
 
+function getRuleByRegistrationDate(date_rules, registrationDate ){
+	var base_rule = null
+    var parts = registrationDate.split('-');
+    registrationDate = new Date(parts[2], parts[1] - 1, parts[0]);
+    for (var i = 0; i < date_rules.length; i++) {
+        var date_rule = date_rules[i]
+
+        var min = date_rule.start_registrering
+        var max = date_rule.slut_registrering
+
+
+        if (min) {
+	        parts = min.split(' ')[0].split('-');
+	        min = new Date(parts[2], parts[1] - 1, parts[0]);
+        }
+        if (max) {
+	        parts = max.split(' ')[0].split('-');
+	        max = new Date(parts[2], parts[1] - 1, parts[0]);
+        }
+        var isFound = true
+        if (min && min > registrationDate) {
+        	isFound = false
+        }
+        if (max && max < registrationDate) {
+        	isFound = false
+        }
+        if (isFound) {
+            base_rule = date_rule
+        }
+    }
+    if (!base_rule) {
+        throw exceptions.registrationDateOutOfRange
+    }
+	return base_rule
+}
+
+function getRuleByVehicleCo2Field(rules, vehicleCo2Field){
+	var base_vehicleCo2_rule  = null
+	for (var i = 0; i < rules.length; i++) {
+        var vehicleCo2_rule = rules[i]
+        var min = Number(vehicleCo2_rule.start_interval)
+        var max = Number(vehicleCo2_rule.slut_interval) || Infinity
+        if (vehicleCo2Field >= min && vehicleCo2Field <= max) {
+            // console.log(min,vehicleCo2Field)
+            base_vehicleCo2_rule = vehicleCo2_rule
+        }
+    }
+	return base_vehicleCo2_rule
+}
+
+var vanDeadweights = {
+	0 : 'Vælg',
+	1 : '0 - 2.000 kg',
+	2 : '2.001 - 2.500 kg',
+	3 : '2.501 - 3.000 kg',
+	4 : '3.001 - 4.000 kg',
+}
+var vanApplications = {
+	0 : 'Vælg anvendelse',
+	1 : 'Privat',
+	2 : 'Privat/Erhverv',
+	3 : 'Erhverv',
+}
+function run6run(rules, vehicleType, fuelType , registrationDate, vehicleCo2Field , vanApplication , vanDeadweight ){
+	var privateUseSupplementTaxes = [0, 3125, 1562.5,1562.5]
+	// var isPrivateUseSupplement = [1,2].indexOf(vanApplication) == -1 ? false : true
+	
+	var rule = getRuleByRegistrationDate(rules, registrationDate )
+
+	var t = getRuleByVehicleCo2Field(rule.children[0].children, vehicleCo2Field)
+	// return t
+
+	var co2Ownership = 0
+	var privateUseSupplement = privateUseSupplementTaxes[vanApplication]
+
+
+	var answers = []
+
+	var baseCo2OwnershipTax = t.co2_ejerafgift
+
+	for (var i = 0; i < rule.children.length; i++) {
+		var currentRule = rule.children[i]
+		var procentmultiplikator = Number(currentRule['procentmultiplikator'])
+		co2Ownership = baseCo2OwnershipTax * procentmultiplikator
+		if (currentRule.description != CURRENT_YEAR) {
+			co2Ownership = ceil_base_10(co2Ownership)
+		}
+		var total = co2Ownership + privateUseSupplement
+		answers.push({
+			year : currentRule.description,
+			co2Ownership,
+			privateUseSupplement,
+			total
+		})
+	}
+
+
+	return answers
+}
+
+
 function run(vehicleType, fuelType = null, registrationDate, vehicleCo2Field = null, particleFilter = null, axles = null) {
     if (!vehicleType) {
         throw exceptions.vehicleTypeRequired
@@ -379,11 +483,16 @@ function run(vehicleType, fuelType = null, registrationDate, vehicleCo2Field = n
     json_file = json_file + ""
     var file_name = jsons[json_file]
 
+
     // var rules = require('./jsons)
 
     // let jsonData = {}
     var results = []
     let rules = JSON.parse(fs.readFileSync('rules/' + file_name + '.json', 'utf-8'))
+
+    if (vehicleType == 6) {
+    	return run6run(rules, vehicleType, fuelType , registrationDate, vehicleCo2Field , particleFilter , axles )
+    }
 
     var registrationDateIsFactor = rules[0].start_registrering
 

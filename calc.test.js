@@ -62,8 +62,26 @@ test('5. Bus (ikke rutebiler)', () => {
 
   expect(run(5,1, "08-12-2021", 100, true, 2).map(t=>t.total)).toStrictEqual([ 450, 470, 500, 530, 560, 620 ]);
   expect(run(5,1, "08-12-2021", 19100, true, 2).map(t=>t.total)).toStrictEqual([ 9550, 9840, 10480, 11160, 11890, 13080 ]);
+
+  expect(run(5,1, "08-12-2021", 100, true, 3).map(t=>t.total)).toStrictEqual([ 36, 40, 40, 50, 50, 50 ]);
+  expect(run(5,1, "08-12-2021", 19100, true, 3).map(t=>t.total)).toStrictEqual([ 6876, 7090, 7550, 8040, 8560, 9420 ]);
+  // expect(run(5,2, "08-12-2021", 100, true, 3).map(t=>t.total)).toStrictEqual([ 6876, 7090, 7550, 8040, 8560, 9420 ]);
+  // expect(run(5,2, "08-12-2021", 19100, true, 3).map(t=>t.total)).toStrictEqual([ 6876, 7090, 7550, 8040, 8560, 9420 ]);
  
 });
 
-  // expect(run(4,1, "08-12-2021", 1550).map(t=>t.total)).toStrictEqual([ 1344, 1390, 1480, 1570, 1680, 1840 ]);
-  // expect(run(4,1, "08-12-2021", 2002).map(t=>t.total)).toStrictEqual([ 806.4, 840, 890, 950, 1010, 1110 ]);
+
+test('6. Varebil', () => {
+  expect(run(6,1, "08-12-2021", 100, 1, 1).map(t=>[t.co2Ownership, t.privateUseSupplement, t.total])).toStrictEqual([ [460, 3125, 3585], [480, 3125, 3605], [510, 3125, 3635], [540, 3125, 3665], [580, 3125, 3705], [630, 3125, 3755] ]);
+  expect(run(6,1, "08-12-2021", 9999, 1, 1).map(t=>[t.co2Ownership, t.privateUseSupplement, t.total])).toStrictEqual([ [11680, 3125, 14805], [12040, 3125, 15165], [12820, 3125, 15945], [13650, 3125, 16775], [14530, 3125, 17655], [15990, 3125, 19115] ]);
+
+  
+  expect(run(6,1, "08-12-2021", 9999, 1, 1).map(t=>[t.co2Ownership, t.privateUseSupplement, t.total])).toStrictEqual([ [11680, 3125, 14805], [12040, 3125, 15165], [12820, 3125, 15945], [13650, 3125, 16775], [14530, 3125, 17655], [15990, 3125, 19115] ]);
+ 
+});
+
+
+test('7. Autocamper', () => {
+  expect(run(7,1, "08-12-2021", 10).map(t=>[ t.total])).toStrictEqual([ [330], [340], [370], [390], [420], [460] ]);
+  expect(run(7,4, "08-12-2021", 9000).map(t=> t.total )).toStrictEqual([ 11680, 12040, 12820, 13650, 14530, 15990 ]); 
+});
