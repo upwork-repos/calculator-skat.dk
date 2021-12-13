@@ -43,16 +43,34 @@ var options = {
 ```
 
 ### parameters
-| Parameter        | Required | Definition          | data type | example |
-|------------------|----------|---------------------|-----------|---------|
-| vehicleType      | yes      | Køretøjstype        | integer   |         |
-| fuelType         | yes      | Brændstof           | integer   |         |
-| registrationDate | yes      | Første registrering |           |         |
-| vehicleCo2Field  | yes      |                     |           |         |
-| particleFilter   | no       |                     |           |         |
-| axles            | no       |                     |           |         |
-| vanApplication   | no       |                     |           |         |
-| vanDeadweight    | no       |                     |           |         |
+| Parameter        | Required | Danish                           | data type | available values                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | example      |
+|------------------|----------|----------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| vehicleType      | yes      | Køretøjstype                     | integer   | {     0: "Vælg køretøj",     1: "Personbil", // fuelTypes1     2: "Trailer (Påhængskøretøj)",     3: "Campingvogn",     4: "Motorcykel", // fuelTypes2     5: "Bus (ikke rutebiler)", // fuelTypes2     6: "Varebil", // fuelTypes1     7: "Autocamper", // fuelTypes1 }                                                                                                                                                                                                                                                   | 1            |
+| fuelType         | no       | Brændstof                        | integer   | if vehicleType is 1 ("Personbil"), 6 ("Varebil") or 7 ("Autocamper") 
+```js
+{     
+	0: "Vælg brændstof",     
+	1: "Benzin",     
+	2: "Diesel", // particleFilter     
+	3: "El",     
+	4: "Hybrid med benzin (uden stik)",     
+	5: "Hybrid med diesel (uden stik)", // particleFilter     
+	6: "Plugin-hybrid med benzin",     
+	7: "Plugin-hybrid med diesel", // particleFilter 
+} ``` 
+if vehicleType is 4 ("Motorcykel") or 5 ("Bus (ikke  rutebiler)")  
+```js 
+{     
+	0: "Vælg brændstof",     
+	1: "Benzin eller EL",     
+	2: "Diesel" 
+} ``` | 2            |
+| registrationDate | yes      | Første registrering              | date      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | "02-01-1885" |
+| vehicleCo2Field  | yes      | Indtast gram CO2 udledt pr. km   | boolean   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | true         |
+| particleFilter   | no       | Har køretøjet et partikelfilter? | integer   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |              |
+| axles            | no       | Antal aksler                     | integer   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |              |
+| vanApplication   | no       | Anvendelse                       | integer   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |              |
+| vanDeadweight    | no       | Totalvægt på varebil             | integer   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |              |
 
 
 - run the `danishTaxCalculator` function and view the result
