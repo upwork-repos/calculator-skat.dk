@@ -133,10 +133,7 @@ The calculator should be updated every year. To update first change the value of
 const CURRENT_YEAR = 2021
 ```
 
-Then update the rules json file as shown in the following video. 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
-Or follow the following instruction
+Then update the rules json files as shown in the following instruction
 
 1. Open the site ( "https://www.skat.dk/skat.aspx?oid=54460" )
 2. Open the developer console by pressing F12
