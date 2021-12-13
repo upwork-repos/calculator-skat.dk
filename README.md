@@ -62,49 +62,60 @@ var result = danishTaxCalculator(options)
 console.log(result)
 ```
 
-- here is the result
+### Result 
+
+#### Format
+
+A result is an an array of result objects, with tax informations from current year to 2026.
+
+| Parameter            | Danish                  | Description                                                                                                                                                                                                                                                  | example |
+|----------------------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| year                 |                         |                                                                                                                                                                                                                                                              | '2021'  |
+| total                | Samlet afgift pr. år    | sum of available tax values                                                                                                                                                                                                                                  | 810     |
+| weightTax            | Vægtafgift              | Du betaler afgift efter dit køretøjs vægt.                                                                                                                                                                                                                   | 450     |
+| compensationFee      | Udligningsafgift        | Du betaler udligningsafgift, hvis du har et <br>køretøj, der kører på diesel eller gas.                                                                                                                                                                      | 1230    |
+| co2Ownership         | CO2-ejerafgift          | Du betaler afgift ud fra den mængde CO2, dit <br>køretøj udleder (gram CO2/km).                                                                                                                                                                              | 460     |
+| privateUseSupplement | Privatbenyttelsestillæg | Du betaler for retten til at benytte køretøjet <br>privat, hvis du har en varebil, der vejer op til <br>4 tons, er registreret første gang efter den 2. <br>juni 1998 og er registreret til 'godstransport <br>privat' eller 'godstransport privat/erhverv'. | 3125    |
+
+
+#### Example
+
 ```js
 [
   {
     year: '2021',
     total: 265,
     weightTax: 1060,
-    vehicleCo2Field: 499,
     compensationFee: 0
   },
   {
     year: '2022',
     total: 280,
     weightTax: 1100,
-    vehicleCo2Field: 499,
     compensationFee: 0
   },
   {
     year: '2023',
     total: 300,
     weightTax: 1170,
-    vehicleCo2Field: 499,
     compensationFee: 0
   },
   {
     year: '2024',
     total: 310,
     weightTax: 1240,
-    vehicleCo2Field: 499,
     compensationFee: 0
   },
   {
     year: '2025',
     total: 330,
     weightTax: 1320,
-    vehicleCo2Field: 499,
     compensationFee: 0
   },
   {
     year: '2026',
     total: 370,
     weightTax: 1460,
-    vehicleCo2Field: 499,
     compensationFee: 0
   }
 ]
