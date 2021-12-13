@@ -45,7 +45,21 @@ var options = {
 ### parameters
 | Parameter        | Required | Danish                           | data type | available values                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | example      |
 |------------------|----------|----------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| vehicleType      | yes      | Køretøjstype                     | integer   | {     0: "Vælg køretøj",     1: "Personbil", // fuelTypes1     2: "Trailer (Påhængskøretøj)",     3: "Campingvogn",     4: "Motorcykel", // fuelTypes2     5: "Bus (ikke rutebiler)", // fuelTypes2     6: "Varebil", // fuelTypes1     7: "Autocamper", // fuelTypes1 }                                                                                                                                                                                                                                                   | 1            |
+| vehicleType      | yes      | Køretøjstype                     | integer   | 
+
+```js
+{     
+	0: "Vælg køretøj",     
+	1: "Personbil", // fuelTypes1     
+	2: "Trailer (Påhængskøretøj)",     
+	3: "Campingvogn",     
+	4: "Motorcykel", // fuelTypes2     
+	5: "Bus (ikke rutebiler)", // fuelTypes2     
+	6: "Varebil", // fuelTypes1     
+	7: "Autocamper", // fuelTypes1 
+}                                                            
+```
+                                                                                                                                                                                      | 1            |
 | fuelType         | no       | Brændstof                        | integer   | if vehicleType is 1 ("Personbil"), 6 ("Varebil") or 7 ("Autocamper") 
 
 ```js
