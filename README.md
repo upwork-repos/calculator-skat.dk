@@ -76,7 +76,32 @@ var options = {
     <td class="tg-0pky">no</td>
     <td class="tg-0pky">Brændstof</td>
     <td class="tg-0pky">integer</td>
-    <td class="tg-0pky">if vehicleType is 1 ("Personbil"), 6 ("Varebil")<br>or 7 ("Autocamper")<br><br>```js<br>{<br>    0: "Vælg brændstof",<br>    1: "Benzin",<br>    2: "Diesel", // particleFilter<br>    3: "El",<br>    4: "Hybrid med benzin (uden stik)",<br>    5: "Hybrid med diesel (uden stik)", // particleFilter<br>    6: "Plugin-hybrid med benzin",<br>    7: "Plugin-hybrid med diesel", // particleFilter<br>}<br>```<br><br>if vehicleType is 4 ("Motorcykel") or 5 ("Bus (ikke <br>rutebiler)") <br><br>```js<br>{<br>    0: "Vælg brændstof",<br>    1: "Benzin eller EL",<br>    2: "Diesel",<br>}<br>```<br></td>
+    <td class="tg-0pky">if vehicleType is 1 ("Personbil"), 6 ("Varebil")<br>or 7 ("Autocamper")<br>
+
+```js
+{
+    0: "Vælg brændstof",
+    1: "Benzin",
+    2: "Diesel", // particleFilter
+    3: "El",
+    4: "Hybrid med benzin (uden stik)",
+    5: "Hybrid med diesel (uden stik)", // particleFilter
+    6: "Plugin-hybrid med benzin",
+    7: "Plugin-hybrid med diesel", // particleFilter
+}
+```
+
+    	<br><br>if vehicleType is 4 ("Motorcykel") or 5 ("Bus (ikke <br>rutebiler)") <br><br>
+
+```js
+{
+    0: "Vælg brændstof",
+    1: "Benzin eller EL",
+    2: "Diesel",
+}
+```
+
+<br></td>
     <td class="tg-0pky">2</td>
   </tr>
   <tr>
