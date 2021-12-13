@@ -17,3 +17,12 @@ Rules are gound in `/rules` folder. Rules are dynamically loaded into the calc.j
 ## tests
 
 Tests are writtedn in calc.test.js. Currently it covers the first 3 vehicle types.
+
+## how to use
+
+- import calc.js into js file
+```js
+const {
+  run
+} = require('./calc');
+```
