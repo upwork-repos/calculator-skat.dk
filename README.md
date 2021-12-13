@@ -123,3 +123,16 @@ A result is an an array of result objects, with tax informations from current ye
 ```
 
 The result depends on the vehicle type and fuel type.
+
+
+## Update guide
+
+The calculator should be updated every year. To update first change the value of `CURRENT_YEAR` constant at line 34 of calc.js.
+
+```js
+const CURRENT_YEAR = 2021
+```
+
+Then update the rules json file as shown in the following video. 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
