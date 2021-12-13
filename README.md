@@ -136,3 +136,19 @@ const CURRENT_YEAR = 2021
 Then update the rules json file as shown in the following video. 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
+Or follow the following instruction
+
+1. Open the site ( "https://www.skat.dk/skat.aspx?oid=54460" )
+2. Open the developer console by pressing F12
+3. Select the network tab and "Fetch/XHR" filter
+[![Step 3](./temp/img/03.png)]
+4. Select the "Køretøjstype" and "Brændstof" fields.
+5. Notice that some json file is fetched in the network tab.
+[![Step 5](./temp/img/05.png)]
+6. Select the fetched file. In this case the file is "https://www.skat.dk/websrv/jsong.ashx?id=4431309"
+7. Click on the response tab and select and copy the whole data
+[![Step 7](./temp/img/07.png)]
+8. Open the code. Go to `rules` directory and replace the content of the current rule. In this example change the content of 4431309.json file with copied data.
+9. Continue for all combinations of `vehicleType` and `fuelType` 
+
+
