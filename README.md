@@ -42,6 +42,19 @@ var options = {
 
 ```
 
+### parameters
+| Parameter        | Required | Definition          | data type | example |
+|------------------|----------|---------------------|-----------|---------|
+| vehicleType      | yes      | Køretøjstype        | integer   |         |
+| fuelType         | yes      | Brændstof           | integer   |         |
+| registrationDate | yes      | Første registrering |           |         |
+| vehicleCo2Field  | yes      |                     |           |         |
+| particleFilter   | no       |                     |           |         |
+| axles            | no       |                     |           |         |
+| vanApplication   | no       |                     |           |         |
+| vanDeadweight    | no       |                     |           |         |
+
+
 - run the `danishTaxCalculator` function and view the result
 
 ```js
@@ -97,3 +110,5 @@ console.log(result)
 ]
 
 ```
+
+The result depends on the vehicle type and fuel type.
