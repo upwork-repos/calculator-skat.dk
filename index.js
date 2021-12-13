@@ -1,18 +1,20 @@
 const {
-  run,
-  exceptions
+  danishTaxCalculator
 } = require('./calc');
 
 
-// var r = run(1,1, "03-01-1997", 499)
-// r = run(1,3, "03-01-1997", 499, true).map(t=>[t.compensationFee, t.weightTax, t.total])
-// console.log(r)
 
-// var t = run(5,1, "03-01-1997", 9100, true, 2)
-// var t = run(5,1, "08-12-2021", 19100, true, 2)
-var t = run(6,1, "08-12-2021", 100, 1, 1)
-// var t = run(7,1, "08-12-2021", 10)
+var options = {
+  vehicleType : 1, 
+  fuelType : 1, 
+  registrationDate : "02-01-1885", 
+  vehicleCo2Field : 499 , 
+  particleFilter : null , 
+  axles : null, 
+  vanApplication : null , 
+  vanDeadweight : null
+}
+var t = danishTaxCalculator(options)
+
 console.log(t)
-
-// .toEqual([ [1060,1060], [1100,1100], [1170,1170], [1240,1240], [1320,1320], [1460,1460] ]
 

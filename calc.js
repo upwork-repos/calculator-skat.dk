@@ -622,7 +622,23 @@ function yearsDiff(e) {
 }
 
 
+
+
+
+function danishTaxCalculator(options){
+    const {vehicleType, fuelType , registrationDate, vehicleCo2Field , particleFilter , axles, vanApplication , vanDeadweight} = options
+    if (vehicleType == 6) {
+        return run(vehicleType, fuelType, registrationDate, vehicleCo2Field, vanApplication , vanDeadweight)
+    }
+    return run(vehicleType, fuelType , registrationDate, vehicleCo2Field , particleFilter , axles)
+}
+
+
+
+
+
 module.exports = {
     run,
-    exceptions
+    exceptions,
+    danishTaxCalculator
 };
