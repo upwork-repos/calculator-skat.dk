@@ -2784,7 +2784,7 @@
                     selectedFuel: function(e) {
                         var t = this;
                         this.isLoading = !0, this.hasError = !1;
-                        var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx?id=".concat(e.id, "&clear=1") : "./websrv/jsong.ashx?id=".concat(e.id);
+                        var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx/".concat(e.id, "&clear=1") : "./websrv/jsong.ashx/".concat(e.id);
                         this.selectedParticleFilter = "", this.selectedRegistration = "", this.selectedRegiDate = "", this.regiDateRenderKey++, this.validDateInput = !0, this.showSubmit = !1, Ae.get(i).then((function(i) {
                             1 == e.partikelfilter_mulighed ? t.particleFilterOptions = i.data : t.registrationOptions = i.data
                         })).catch((function() {
@@ -3112,7 +3112,7 @@
                 mounted: function() {
                     var e = this;
                     this.isLoading = !0, this.hasError = !1;
-                    var t = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx?id=".concat(this.vehicleData.id, "&clear=1") : "./websrv/jsong.ashx?id=".concat(this.vehicleData.id);
+                    var t = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx/".concat(this.vehicleData.id, "&clear=1") : "./websrv/jsong.ashx/".concat(this.vehicleData.id);
                     Ze.get(t).then((function(t) {
                         e.vehicleChildrenData = t.data
                     })).catch((function() {
@@ -3345,7 +3345,7 @@
                     selectedFuel: function(e) {
                         var t = this;
                         this.isLoading = !0, this.hasError = !1;
-                        var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx?id=".concat(e.id, "&clear=1") : "./websrv/jsong.ashx?id=".concat(e.id);
+                        var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx/".concat(e.id, "&clear=1") : "./websrv/jsong.ashx/".concat(e.id);
                         this.selectedYears = [], this.validDateInput = !0, this.selectedRegistrationDate = "", this.regiDateRenderKey++, this.intervalOptions = [], this.showSubmit = !1, nt.get(i).then((function(e) {
                             t.selectedYears = e.data, t.intervalOptions = _.getBaseYear({
                                 children: e.data
@@ -3702,7 +3702,7 @@
                     selectedFuel: function(e) {
                         var t = this;
                         this.isLoading = !0, this.hasError = !1;
-                        var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx?id=".concat(e.id, "&clear=1") : "./websrv/jsong.ashx?id=".concat(e.id);
+                        var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx/".concat(e.id, "&clear=1") : "./websrv/jsong.ashx/".concat(e.id);
                         this.selectedRegistrationDate = "", this.regiDateRenderKey++, this.validDateInput = !0, this.showSubmit = !1, mt.get(i).then((function(e) {
                             t.axleOptions = e.data
                         })).catch((function() {
@@ -4644,7 +4644,7 @@
                     selectedFuel: function(e) {
                         var t = this;
                         this.isLoading = !0, this.hasError = !1;
-                        var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx?id=".concat(e.id, "&clear=1") : "./websrv/jsong.ashx?id=".concat(e.id);
+                        var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx/".concat(e.id, "&clear=1") : "./websrv/jsong.ashx/".concat(e.id);
                         this.selectedParticleFilter = "", this.selectedRegistration = "", this.selectedRegiDate = "", this.regiDateRenderKey++, this.validDateInput = !0, this.showSubmit = !1, xt.get(i).then((function(i) {
                             1 == e.partikelfilter_mulighed ? t.particleFilterOptions = i.data : t.registrationOptions = i.data
                         })).catch((function() {
@@ -4662,7 +4662,7 @@
                             if (this.selectedRegistration = this.matchSelectedDateToRegistationPeriod(e, this.registrationOptions), e < this.privateUseFirstDifferentiatorDate) this.resetInputFields(), this.intervalOptions = _.getBaseYear(this.selectedRegistration), this.showSubmit = !0;
                             else {
                                 this.showApplicationChoice = !0;
-                                var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx?id=152610&clear=1" : "./websrv/jsong.ashx?id=152610";
+                                var i = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx/152610&clear=1" : "./websrv/jsong.ashx/152610";
                                 xt.get(i).then((function(i) {
                                     t.privateUseTaxObj = t.matchSelectedDateToRegistationPeriod(e, i.data)
                                 })).catch((function() {
@@ -4732,8 +4732,8 @@
             Dt = Object(p["a"])(yt, bt, _t, !1, null, null, null),
             Tt = Dt.exports,
             kt = i("bc3a"),
-            wt = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx?id=4431307&max=1&clear=1" : "./websrv/jsong.ashx?id=4431307&max=1",
-            Nt = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx?id=152164&clear=1" : "./websrv/jsong.ashx?id=152164",
+            wt = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx/4431307&max=1&clear=1" : "./websrv/jsong.ashx/4431307&max=1",
+            Nt = 'https://www.skat.dk/skat.aspx?oid=54460'.includes("clear=1") ? "./websrv/jsong.ashx/152164&clear=1" : "./websrv/jsong.ashx/152164",
             It = {
                 name: "TaxCalculator",
                 data: function() {

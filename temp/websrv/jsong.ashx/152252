@@ -1,0 +1,108 @@
+[{
+	"data": {
+		"type": "dap",
+		"id": "152252",
+		"oid": "54532",
+		"description": "Campingvogn",
+		"version": "version 363 - supchat lang fix",
+		"system": "SKAT internet server 7"
+	},
+	"oid": "54533",
+	"id": "152253",
+	"description": "2021",
+	"enhed": "Køretøjets egenvægt i kg",
+	"procentmultiplikator": "1.000000000000000",
+	"children": [{
+		"oid": "54539",
+		"id": "152259",
+		"lvl": "1",
+		"description": "1 - 600",
+		"start_interval": "1.000000000000000",
+		"slut_interval": "600.000000000000000",
+		"opkrævningsperiode": "halvår",
+		"vægtafgift": 339
+	}, {
+		"oid": "54540",
+		"id": "152260",
+		"lvl": "1",
+		"description": "601 - 800",
+		"start_interval": "601.000000000000000",
+		"slut_interval": "800.000000000000000",
+		"opkrævningsperiode": "halvår",
+		"vægtafgift": 412
+	}, {
+		"oid": "54541",
+		"id": "152261",
+		"lvl": "1",
+		"description": "801 - 1100",
+		"start_interval": "801.000000000000000",
+		"slut_interval": "1100.000000000000000",
+		"opkrævningsperiode": "halvår",
+		"vægtafgift": 563
+	}, {
+		"oid": "54542",
+		"id": "152262",
+		"lvl": "1",
+		"description": "1101 - 1300",
+		"start_interval": "1101.000000000000000",
+		"slut_interval": "1300.000000000000000",
+		"opkrævningsperiode": "halvår",
+		"vægtafgift": 748
+	}, {
+		"oid": "54543",
+		"id": "152263",
+		"lvl": "1",
+		"description": "1301 - 1500",
+		"start_interval": "1301.000000000000000",
+		"slut_interval": "1500.000000000000000",
+		"opkrævningsperiode": "halvår",
+		"vægtafgift": 976
+	}, {
+		"oid": "54544",
+		"id": "152264",
+		"lvl": "1",
+		"description": "1501 - 2000",
+		"start_interval": "1501.000000000000000",
+		"slut_interval": "2000.000000000000000",
+		"opkrævningsperiode": "halvår",
+		"vægtafgift": 1344
+	}, {
+		"oid": "54545",
+		"id": "152265",
+		"lvl": "1",
+		"description": "2001 -",
+		"start_interval": "2001.000000000000000",
+		"opkrævningsperiode": "kvartal",
+		"vægtafgift_stor": "38.4/100"
+	}]
+}, {
+	"oid": "54534",
+	"id": "152254",
+	"description": "2022",
+	"enhed": "Køretøjets egenvægt i kg",
+	"procentmultiplikator": "1.030000000000000"
+}, {
+	"oid": "54535",
+	"id": "152255",
+	"description": "2023",
+	"enhed": "Køretøjets egenvægt i kg",
+	"procentmultiplikator": "1.097000000000000"
+}, {
+	"oid": "54536",
+	"id": "152256",
+	"description": "2024",
+	"enhed": "Køretøjets egenvægt i kg",
+	"procentmultiplikator": "1.168000000000000"
+}, {
+	"oid": "54537",
+	"id": "152257",
+	"description": "2025",
+	"enhed": "Køretøjets egenvægt i kg",
+	"procentmultiplikator": "1.244000000000000"
+}, {
+	"oid": "54538",
+	"id": "152258",
+	"description": "2026",
+	"enhed": "Køretøjets egenvægt i kg",
+	"procentmultiplikator": "1.369000000000000"
+}]
