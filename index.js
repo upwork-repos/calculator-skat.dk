@@ -6,10 +6,11 @@ const {
 
 var options = {
   vehicleType : 1, 
-  fuelType : 1, 
-  registrationDate : "02-01-1885", 
+  fuelType : 2, 
+  registrationDate : "08-12-2021", 
+  // registrationDate : "02-01-1885", 
   vehicleCo2Field : 499 , 
-  particleFilter : null , 
+  particleFilter : true , 
   axles : null, 
   vanApplication : null , 
   vanDeadweight : null

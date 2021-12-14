@@ -133,7 +133,7 @@ function run_based_on_registration_date(date_rules, vehicleType, fuelType = null
             // console.log(current_rule.children)
             // compensationFee = vehicleCo2_rules[i].grøn_ejerafgift
             // TODO : get the grøn_ejerafgift value
-            compensationFee = 970
+            compensationFee = fuelType == 2 ? 5020 : 970 
             weightTax = total
             total = weightTax + compensationFee
         }
@@ -490,11 +490,20 @@ function run(vehicleType, fuelType = null, registrationDate, vehicleCo2Field = n
     var results = []
     let rules = JSON.parse(fs.readFileSync('rules/' + file_name + '.json', 'utf-8'))
 
+    if (vehicleType == 1 && fuelType == 2) {
+    	rules = particleFilter ? rules [0] : rules[1]
+    	rules = rules.children
+    }
+
     if (vehicleType == 6) {
     	return run6run(rules, vehicleType, fuelType , registrationDate, vehicleCo2Field , particleFilter , axles )
     }
 
     var registrationDateIsFactor = rules[0].start_registrering
+    
+    // return registrationDateIsFactor
+
+    // return registrationDateIsFactor
 
     if (registrationDateIsFactor) {
         return run_based_on_registration_date(rules, vehicleType, fuelType, registrationDate, vehicleCo2Field, particleFilter)
@@ -508,11 +517,13 @@ function run(vehicleType, fuelType = null, registrationDate, vehicleCo2Field = n
         var vehicleCo2_rule = vehicleCo2_rules[i]
         var min = Number(vehicleCo2_rule.start_interval)
         var max = Number(vehicleCo2_rule.slut_interval) || Infinity
+
         if (vehicleCo2Field >= min && vehicleCo2Field <= max) {
             // console.log(min,vehicleCo2Field)
             base_vehicleCo2_rule = vehicleCo2_rule
         }
     }
+
 
     if (vehicleType == 4) {
         return simple_run(rules)
